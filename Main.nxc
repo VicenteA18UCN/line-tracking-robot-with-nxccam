@@ -3,11 +3,11 @@
 const byte camPort  =  IN_1;
 
 #define CAMADDR     0x02
-#define K_VALUE 20        //20
+#define K_VALUE 0
 #include "nxtcamlib-default.nxc"
 #define NEAR 30
-#define VELOCITY 50
-#define P_VALUE = 0.01   //0.01
+#define VELOCITY 18
+#define P_VALUE = 0.1
 
 // Global variables.
 int nblobs;  // number of blobs that are in view of NXTCam (value between 0 and 8)
@@ -69,22 +69,28 @@ task main ()
       k = 0;
       if(nblobs > 0)
       {
-          k = bt[nblobs-1] + bl[nblobs-1] - 176;
+          k = bt[nblobs-1] + bl[nblobs-1] + 50;
+          float motorAVelocity = 1.3*(VELOCITY + k*P_VALUE);
+          float motorCVelocity = 1.3*(VELOCITY - k*P_VALUE);
         if(k > K_VALUE)
         {
+             OnFwd(OUT_A, motorAVelocity);
+             OnFwd(OUT_C, motorCVelocity);
             //OnFwd (OUT_C, VELOCITY-(k*P_VALUE));
-            Off(OUT_C);
-            OnFwd (OUT_A, VELOCITY+(k*P_VALUE));
+            //Off(OUT_C);
+            //OnFwd (OUT_A, VELOCITY+(k*P_VALUE));
         }
         else if(k < -K_VALUE)
         {
             //OnFwd (OUT_A, VELOCITY-(-k*P_VALUE));
-            Off(OUT_A);
-            OnFwd (OUT_C, VELOCITY+(-k*P_VALUE));
+            //Off(OUT_A);
+            //OnFwd (OUT_C, VELOCITY+(-k*P_VALUE));
+            OnFwd(OUT_C, motorAVelocity);
+            OnFwd(OUT_A, motorCVelocity);
         }
         else
         {
-              OnFwd (OUT_AC, VELOCITY);
+              OnFwd (OUT_AC, 1.4*VELOCITY);
         }
         Wait(200);
 
