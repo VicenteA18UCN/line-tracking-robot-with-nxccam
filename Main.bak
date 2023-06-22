@@ -3,11 +3,11 @@
 const byte camPort  =  IN_1;
 
 #define CAMADDR     0x02
-#define K_VALUE 20        //20
+#define K_VALUE 30
 #include "nxtcamlib-default.nxc"
 #define NEAR 30
 #define VELOCITY 50
-#define P_VALUE = 0.01   //0.01
+#define P_VALUE 0.01
 
 // Global variables.
 int nblobs;  // number of blobs that are in view of NXTCam (value between 0 and 8)
@@ -38,12 +38,10 @@ task main ()
   int i;
   int init;
   int k = 0;
-
   ShowSensorInfo(camPort, CAMADDR);
-  Wait(500);
+  Wait(130);
   // Initialise the camera
   init = NXTCam_Init(camPort, CAMADDR);
-  Wait(1000);
   NXTCam_SendCommand(camPort, CAMADDR, 'E'); // enable tracking
   Wait(300);
   NXTCam_SendCommand(camPort, CAMADDR, 'D'); // disable tracking (SE PRUEBA O SE QUITA)
@@ -52,14 +50,11 @@ task main ()
   Wait(300);
   NXTCam_SendCommand(camPort, CAMADDR, 'E'); // enable tracking
   Wait(300);
-  PlayTone(440, 50);
   while (true)
   {
     if(SensorUS(IN_2)<NEAR)
     {
         Off(OUT_AC);
-        PlayTone(500, 50);
-        Wait(100);
     }
     else
     {
@@ -72,15 +67,13 @@ task main ()
           k = bt[nblobs-1] + bl[nblobs-1] - 176;
         if(k > K_VALUE)
         {
-            //OnFwd (OUT_C, VELOCITY-(k*P_VALUE));
             Off(OUT_C);
-            OnFwd (OUT_A, VELOCITY+(k*P_VALUE));
+            OnFwd (OUT_A, VELOCITY*(k*P_VALUE));
         }
         else if(k < -K_VALUE)
         {
-            //OnFwd (OUT_A, VELOCITY-(-k*P_VALUE));
             Off(OUT_A);
-            OnFwd (OUT_C, VELOCITY+(-k*P_VALUE));
+            OnFwd (OUT_C, VELOCITY*(k*P_VALUE));
         }
         else
         {
@@ -88,11 +81,6 @@ task main ()
         }
         Wait(200);
 
-      }
-      else{
-      Off(OUT_AC);
-      PlayTone(300, 30);
-      Wait(500);
       }
     }
   }

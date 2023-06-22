@@ -1,0 +1,148 @@
++
+const byte camPort  =  IN_1;
+
+#define CAMADDR     0x02
+#define K_VALUE 10
+#include "nxtcamlib-default.nxc"
+#define NEAR 30
+#define VELOCITY 40
+
+// Global variables.
+int cb; // Current blob index to display
+int nblobs;  // number of blobs that are in view of NXTCam (value between 0 and 8)
+int stop_flag;
+
+// task button_handler() - increments blob index when right button is pressed, decrements
+// when left button is pressed. Keeps values between 0 and 7.
+
+
+task button_handler()
+{
+  while (true) {
+
+     if ( ButtonPressed(BTNCENTER, true) ) {
+         while (ButtonPressed(BTNCENTER, true)) ;            //debounce the switch
+      stop_flag ++;
+    }
+
+  }// end of while
+    Wait(500);   // don't hog the CPU.
+}
+
+//Print sensor information from its register
+void ShowSensorInfo(byte prt, byte Addres )
+{
+   if( i2cread(prt,Addres,0x00,1)>1)
+   {
+     // sensor name
+     TextOut(0, LCD_LINE8, i2cReadString(prt, Addres, 0x10, 8), false);
+     // sensor firmware version.
+     TextOut(50, LCD_LINE8, i2cReadString(prt, Addres, 0x00, 8), false);
+   }
+}
+
+
+task main ()
+{
+  SetSensor(IN_2, SENSOR_LOWSPEED);
+  Wait(800);
+  OnFwd(OUT_B,100);
+  int bc[10];
+  int bl[10];
+  int bt[10];
+  int br[10];
+  int bb[10];
+  string msg;
+  string str;
+  string buf2;
+  int i;
+  int n;
+  int stop_now = 0;
+  int init;
+  stop_flag = 0;
+  int k = 0;
+
+
+  ShowSensorInfo(camPort, CAMADDR);
+  Wait(130);
+  // Initialise the camera
+  init = NXTCam_Init(camPort, CAMADDR);
+
+  NXTCam_SendCommand(camPort, CAMADDR, 'E'); // enable tracking
+
+  Wait(100);
+
+  cb = 2;
+  // Setup button handler
+  StartTask(button_handler);
+
+  n = 0;
+  while (stop_now == 0) {
+  if(SensorUS(IN_2)<NEAR) {
+               Off(OUT_AC);
+          }
+  else{
+    ClearScreen();
+    ShowSensorInfo(camPort, CAMADDR);
+    Wait(100);
+    if ( cb != 0 ) {
+      NXTCam_SendCommand(camPort, CAMADDR, 'D'); // disable tracking
+      Wait(300);
+      switch ( cb ) {
+        case 1:
+        NXTCam_SendCommand(camPort, CAMADDR, 'B');  // object tracking
+        Wait(100);
+        break;
+        case 2:
+        NXTCam_SendCommand(camPort, CAMADDR, 'L'); // line tracking
+        Wait(100);
+        break;
+      }
+      NXTCam_SendCommand(camPort, CAMADDR, 'E'); // enable tracking
+      Wait(100);
+      cb = 0;
+    }
+    NXTCam_GetBlobs(camPort, CAMADDR, nblobs, bc, bl, bt, br, bb);
+
+    // draw the bounding box of
+    // NXTCam field of view.
+    // top-left X, top left Y, bottom right X, bottom right Y
+
+    k = 0;
+    for ( i = 0; i < nblobs; i++) {
+      k = bt[i] + bl[i] - 176;
+      if(k > K_VALUE)
+      {
+           float aux = k/100;
+           OnFwd (OUT_C, VELOCITY*aux);
+           OnFwd (OUT_A, VELOCITY);
+      }
+      else if(k < -K_VALUE)
+      {
+           float aux = -1*k/100;
+           OnFwd (OUT_A, VELOCITY*aux);
+           OnFwd (OUT_C, VELOCITY);
+      } else
+      {
+            // OnFwd (OUT_AC, VELOCITY);
+            Off(OUT_AC);
+      }
+      break;
+      Wait(200);
+    }
+
+
+
+    if ( stop_flag > 1 ) {  // if stop is indicated by pressing button
+                            // twice or more,
+       Wait(100);          // wait for a second for all the communicaiton
+                            // to finish
+       stop_now = 1;        // and break from the loop to exit.
+    }
+     }
+  }
+  PlayTone(440, 30);
+  NXTCam_SendCommand(camPort, CAMADDR, 'D'); // disable tracking
+  Wait(500);
+  StopAllTasks();
+}
