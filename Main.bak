@@ -1,13 +1,11 @@
-
-
 const byte camPort  =  IN_1;
 
-#define CAMADDR     0x02
-#define K_VALUE 20        //20
+#define CAMADDR 0x02
+#define K_VALUE 3
 #include "nxtcamlib-default.nxc"
-#define NEAR 30
-#define VELOCITY 50
-#define P_VALUE = 0.01   //0.01
+#define NEAR 1
+#define P = 1.0
+#define VELOCITY 40
 
 // Global variables.
 int nblobs;  // number of blobs that are in view of NXTCam (value between 0 and 8)
@@ -38,6 +36,7 @@ task main ()
   int i;
   int init;
   int k = 0;
+  string k_str;
 
   ShowSensorInfo(camPort, CAMADDR);
   Wait(500);
@@ -69,30 +68,29 @@ task main ()
       k = 0;
       if(nblobs > 0)
       {
-          k = bt[nblobs-1] + bl[nblobs-1] - 176;
-        if(k > K_VALUE)
-        {
-            //OnFwd (OUT_C, VELOCITY-(k*P_VALUE));
-            Off(OUT_C);
-            OnFwd (OUT_A, VELOCITY+(k*P_VALUE));
-        }
-        else if(k < -K_VALUE)
-        {
-            //OnFwd (OUT_A, VELOCITY-(-k*P_VALUE));
-            Off(OUT_A);
-            OnFwd (OUT_C, VELOCITY+(-k*P_VALUE));
-        }
-        else
-        {
-              OnFwd (OUT_AC, VELOCITY);
-        }
-        Wait(200);
+          k = br[0]-100;
+          if(k > K_VALUE)
+          {
+              OnFwd(OUT_A, VELOCITY+k);
+              OnFwd(OUT_C, VELOCITY-k);
 
+          }
+          else if(k < -K_VALUE)
+          {
+              OnFwd(OUT_C, VELOCITY+k);
+              OnFwd(OUT_A, VELOCITY-k);
+          }
+          else
+          {
+              OnFwd (OUT_AC, VELOCITY);
+          }
+          Wait(200);
       }
-      else{
-      Off(OUT_AC);
-      PlayTone(300, 30);
-      Wait(500);
+      else
+      {
+          Off(OUT_AC);
+          PlayTone(300, 30);
+          Wait(500);
       }
     }
   }

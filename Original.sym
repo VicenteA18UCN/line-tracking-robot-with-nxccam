@@ -426,7 +426,7 @@ Clump	Line	PC	Source
 0	79	153	#line 79 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	80	153		mov __signed_stack_001main, __D0main
 0	79	155	#line 79 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
-0	80	155		set __D0main, 1
+0	80	155		set __D0main, 30
 0	79	158	#line 79 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	80	158		cmp 0, __D0main, __signed_stack_001main, __D0main
 0	80	162	#line 80 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
@@ -663,7 +663,7 @@ Clump	Line	PC	Source
 0	116	409		div __main_7qG2_aux_7qG2_005, __signed_stack_001main, __D0main
 0	115	413	#line 115 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	115	413	#line 115 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
-0	116	413		set __signed_stack_001main, 30
+0	116	413		set __signed_stack_001main, 40
 0	115	416	#line 115 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	115	416	#line 115 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	115	416	#line 115 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
@@ -674,7 +674,7 @@ Clump	Line	PC	Source
 0	10251	443	#line 10251 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	116	443	#line 116 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	116	443	#line 116 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
-0	117	443		set __D0main, 30
+0	117	443		set __D0main, 40
 0	117	446	#line 117 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	118	446	#pragma macro 7
 0	118	446		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
@@ -710,7 +710,7 @@ Clump	Line	PC	Source
 0	122	501		sub __main_7qG2_aux_7qG2_005, __signed_stack_001main, __D0main
 0	121	505	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	121	505	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
-0	122	505		set __signed_stack_001main, 30
+0	122	505		set __signed_stack_001main, 40
 0	121	508	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	121	508	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	121	508	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
@@ -721,7 +721,7 @@ Clump	Line	PC	Source
 0	10318	535	#line 10318 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	122	535	#line 122 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	122	535	#line 122 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
-0	123	535		set __D0main, 30
+0	123	535		set __D0main, 40
 0	123	538	#line 123 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Original.nxc"
 0	124	538	#pragma macro 7
 0	124	538		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
