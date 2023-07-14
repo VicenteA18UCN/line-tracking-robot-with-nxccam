@@ -1,280 +1,291 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0SetSensorLowspeed_inline_NXTCam_Init	6	1	0	4	2
-1	__DU0SetSensorLowspeed_inline_NXTCam_Init	5	1	4	4	5
-2	__D0ShowSensorInfo	6	1	8	4	10
-3	__D0NXTCam_PrepareColormap	6	1	12	4	1
-4	__D0NXTCam_SendCommand	6	1	16	4	15
-5	__signed_stack_002i2cread	6	1	20	4	2
-6	__unsigned_stack_001i2cread	5	1	24	4	4
-7	__signed_stack_001i2cread	6	1	28	4	4
-8	__D0StopAllTasks_inline_main	6	1	32	4	2
-9	__D0StopAllTasks_inline_NXTCam_Init	6	1	36	4	2
-10	__D0i2cread	6	1	40	4	18
-11	__DU0i2cread	5	1	44	4	2
-12	__SPTArgsMutex	9	0	48	4	12
-13	__RLSBmutex2	9	0	52	4	6
-14	__RLSBmutex3	9	0	56	4	6
-15	__D0NXTCam_GetBlobs	6	1	60	4	112
+0	__D0StopAllTasks_inline_main	6	1	0	4	2
+1	__D0StopAllTasks_inline_NXTCam_Init	6	1	4	4	2
+2	__DU0SetSensorLowspeed_inline_NXTCam_Init	5	1	8	4	5
+3	__D0ShowSensorInfo	6	1	12	4	10
+4	__D0SetSensorLowspeed_inline_NXTCam_Init	6	1	16	4	2
+5	__unsigned_stack_002i2cread	5	1	20	4	2
+6	__signed_stack_001i2cReadString	6	1	24	4	2
+7	__unsigned_stack_001i2cread	5	1	28	4	4
+8	__signed_stack_001i2cread	6	1	32	4	4
+9	__signed_stack_002i2cread	6	1	36	4	2
+10	__D0NXTCam_SendCommand	6	1	40	4	15
+11	__D0i2cReadString	6	1	44	4	10
+12	__D0main	6	1	48	4	82
+13	__DU0i2cread	5	1	52	4	2
+14	__SPTArgsMutex	9	0	56	4	12
+15	__D0i2cread	6	1	60	4	18
 16	__D0NXTCam_Init	6	1	64	4	53
-17	__D0NXTCam_Flush	6	1	68	4	20
-18	__D0i2cReadString	6	1	72	4	10
-19	__D0main	6	1	76	4	48
-20	__unsigned_stack_001NXTCam_Init	5	1	80	4	4
-21	__signed_stack_001NXTCam_SendCommand	6	1	84	4	4
-22	__signed_stack_003NXTCam_Init	6	1	88	4	4
-23	__signed_stack_001NXTCam_Init	6	1	92	4	24
-24	__signed_stack_002NXTCam_Init	6	1	96	4	14
-25	__Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init	5	1	100	4	6
-26	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	104	4	24
-27	__unsigned_stack_001ShowSensorInfo	5	1	108	4	2
-28	__signed_stack_001ShowSensorInfo	6	1	112	4	4
-29	__signed_stack_002ShowSensorInfo	6	1	116	4	4
-30	__signed_stack_002main	6	1	120	4	8
-31	__signed_stack_003main	6	1	124	4	8
-32	__signed_stack_001main	6	1	128	4	20
-33	__unsigned_stack_002i2cread	5	1	132	4	2
-34	__signed_stack_001i2cReadString	6	1	136	4	2
-35	__unsigned_stack_001NXTCam_GetBlobs	5	1	140	4	2
-36	__unsigned_stack_002NXTCam_GetBlobs	5	1	144	4	10
-37	__signed_stack_002NXTCam_GetBlobs	6	1	148	4	12
-38	__signed_stack_001NXTCam_Flush	6	1	152	4	6
-39	__signed_stack_001NXTCam_GetBlobs	6	1	156	4	52
-40	__CLSRMutex2	9	0	160	4	10
-41	__CLSCSMutex3	9	0	164	4	30
-42	__CLSWMutex2	9	0	168	4	8
-43	__CLSRMutex1	9	0	172	4	12
-44	__CLSCSMutex2	9	0	176	4	30
-45	__TextOutMutex	9	0	180	4	14
-46	__RLSBmutex0	9	0	184	4	6
-47	__RLSBmutex1	9	0	188	4	8
-48	__CLSWMutex3	9	0	192	4	8
-49	__CLSRMutex3	9	0	196	4	10
-50	__CLSWMutex0	9	0	200	4	8
-51	__CLSCSMutex0	9	0	204	4	30
-52	__ResetSensorMutex	9	0	208	4	4
+17	__D0NXTCam_PrepareColormap	6	1	68	4	1
+18	__D0NXTCam_GetBlobs	6	1	72	4	112
+19	__DF0main	10	1	76	4	2
+20	__D0NXTCam_Flush	6	1	80	4	20
+21	__signed_stack_001main	6	1	84	4	44
+22	__signed_stack_001ShowSensorInfo	6	1	88	4	4
+23	__signed_stack_002ShowSensorInfo	6	1	92	4	4
+24	__signed_stack_001NXTCam_SendCommand	6	1	96	4	4
+25	__signed_stack_003NXTCam_Init	6	1	100	4	4
+26	__unsigned_stack_001NXTCam_Init	5	1	104	4	4
+27	__main_7qG2_multip_7qG2_003	10	1	108	4	3
+28	__constValf0P5	10	0	112	4	1
+29	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	116	4	26
+30	__unsigned_stack_001ShowSensorInfo	5	1	120	4	2
+31	__Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init	5	1	124	4	6
+32	__signed_stack_002NXTCam_Init	6	1	128	4	14
+33	__float_stack_002main	10	1	132	4	2
+34	__signed_stack_001NXTCam_Flush	6	1	136	4	6
+35	__float_stack_001main	10	1	140	4	2
+36	__signed_stack_002main	6	1	144	4	12
+37	__signed_stack_003main	6	1	148	4	8
+38	__unsigned_stack_002NXTCam_GetBlobs	5	1	152	4	10
+39	__signed_stack_001NXTCam_Init	6	1	156	4	24
+40	__unsigned_stack_001NXTCam_GetBlobs	5	1	160	4	2
+41	__signed_stack_001NXTCam_GetBlobs	6	1	164	4	52
+42	__signed_stack_002NXTCam_GetBlobs	6	1	168	4	12
+43	__RLSBmutex3	9	0	172	4	6
+44	__CLSCSMutex3	9	0	176	4	30
+45	__CLSWMutex3	9	0	180	4	8
+46	__CLSWMutex2	9	0	184	4	8
+47	__CLSRMutex2	9	0	188	4	10
+48	__RLSBmutex0	9	0	192	4	6
+49	__RLSBmutex1	9	0	196	4	8
+50	__CLSRMutex3	9	0	200	4	10
+51	__TextOutMutex	9	0	204	4	14
+52	__CLSWMutex0	9	0	208	4	8
 53	__CLSRMutex0	9	0	212	4	10
-54	__CLSWMutex1	9	0	216	4	10
-55	__CLSCSMutex1	9	0	220	4	32
-56	__NXTCam_Flush_7qG2_n_7qG2_000	4	1	224	2	3
-57	__i2cread_7qG2_loop_7qG2_000	4	1	226	2	3
-58	__i2cReadString_7qG2_n_7qG2_000	4	1	228	2	3
-59	__NXTCam_SendCommand_7qG2_status_7qG2_000	4	1	230	2	3
-60	__NXTCam_Init_7qG2_i_7qG2_000	4	1	232	2	5
-61	__NXTCam_Init_7qG2_n_7qG2_000	4	1	234	2	3
-62	__main_7qG2_k_7qG2_000	4	1	236	2	5
-63	__NXTCam_GetBlobs_7qG2_x_7qG2_000	4	1	238	2	2
-64	__NXTCam_GetBlobs_7qG2_n_7qG2_000	4	1	240	2	8
-65	__NXTCam_GetBlobs_7qG2_nblobs_7qG2_000	4	1	242	2	7
-66	__NXTCam_GetBlobs_7qG2_i_7qG2_000	4	1	244	2	19
-67	nblobs	4	1	246	2	3
-68	__NXTCam_SendCommand_7qG2_camAddr_7qG2_000	1	1	248	1	7
-69	__NXTCam_SendCommand_7qG2_camPort_7qG2_000	1	1	249	1	10
-70	__NXTCam_SendCommand_7qG2_nByteReady_7qG2_000	1	1	250	1	2
-71	____initialize_global_data_return	1	1	251	1	3
-72	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	252	1	4
-73	__NXTCam_SendCommand_return	1	1	253	1	8
-74	__NXTCam_SendCommand_7qG2_cmd_7qG2_000	1	1	254	1	7
-75	__i2cReadString_7qG2_reg_7qG2_000	1	1	255	1	4
-76	__i2cReadString_7qG2_cnt_7qG2_000	1	1	256	1	5
-77	__i2cReadString_return	1	1	257	1	6
-78	__constValNeg3	2	0	258	1	1
-79	__i2cReadString_7qG2_prt_7qG2_000	1	1	259	1	5
-80	__i2cReadString_7qG2_adr_7qG2_000	1	1	260	1	4
-81	__constVal63	2	0	261	1	8
-82	__constVal96	2	0	262	1	8
-83	__NXTCam_Flush_7qG2_nByteReady_7qG2_000	1	1	263	1	3
-84	__i2cReadString_7qG2_nByteReady_7qG2_000	1	1	264	1	2
-85	__NXTCam_Flush_7qG2_camPort_7qG2_000	1	1	265	1	5
-86	__NXTCam_Flush_return	1	1	266	1	3
-87	__ShowSensorInfo_return	1	1	267	1	4
-88	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_NXTCam_Init	1	1	268	1	4
-89	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_NXTCam_Init	1	1	269	1	2
-90	__NXTCam_Init_7qG2_cnt_7qG2_000	1	1	270	1	3
-91	__constVal32	2	0	271	1	24
-92	__NXTCam_Init_7qG2_nByteReady_7qG2_000	1	1	272	1	2
-93	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	273	1	2
-94	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	274	1	2
-95	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	275	1	2
-96	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	276	1	2
-97	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	277	1	2
-98	__NXTCam_Init_7qG2_camPort_7qG2_000	1	1	278	1	3
-99	__NXTCam_Init_7qG2_camAddr_7qG2_000	1	1	279	1	4
-100	__ShowSensorInfo_7qG2_prt_7qG2_000	1	1	280	1	5
-101	__constVal65	2	0	281	1	1
-102	__ShowSensorInfo_7qG2_Addres_7qG2_000	1	1	282	1	5
-103	__NXTCam_GetBlobs_7qG2_camAddr_7qG2_000	1	1	283	1	3
-104	__NXTCam_GetBlobs_7qG2_port_7qG2_000	1	1	284	1	12
-105	__NXTCam_Init_return	1	1	285	1	5
-106	__NXTCam_GetBlobs_7qG2_nByteReady_7qG2_000	1	1	286	1	7
-107	__NXTCam_GetBlobs_return	1	1	287	1	7
-108	__ResetSensorTmp	1	1	288	1	2
-109	____ResetSensorSubroutine_return	1	1	289	1	4
-110	__constVal10	2	0	290	1	8
-111	__RLSReadPort	1	1	291	1	6
-112	__constVal3	2	0	292	1	9
-113	__constVal5	2	0	293	1	2
-114	__ResetSensorPort	1	1	294	1	4
-115	__PFTmp	1	1	295	1	1
-116	__LSWriteOptions1	1	1	296	1	1
-117	__tmpsbyteNXTCam_SendCommand	2	1	297	1	2
-118	__LSWriteOptionsVar	1	1	298	1	4
-119	____ReadLSBytes1_return	1	1	299	1	3
-120	__constVal15	2	0	300	1	2
-121	__constVal66	2	0	301	1	1
-122	__RLSBResult1	2	1	302	1	7
-123	__constVal0	2	1	303	1	41
-124	__i2cread_7qG2_cnt_7qG2_000	1	1	304	1	4
-125	__i2cread_return	1	1	305	1	4
-126	__i2cread_7qG2_adr_7qG2_000	1	1	306	1	2
-127	__i2cread_7qG2_reg_7qG2_000	1	1	307	1	2
-128	__constVal2	2	0	308	1	2
-129	__RLSBIterations1	1	1	309	1	4
-130	__i2cread_7qG2_result_7qG2_000	1	1	310	1	5
-131	__constValNeg1	2	0	311	1	5
-132	__i2cread_7qG2_prt_7qG2_000	1	1	312	1	3
-133	__RLSBytesCountVar	1	1	313	1	12
-134	__RLSBIterationsVar	1	1	314	1	4
-135	__constVal1	2	0	315	1	15
-136	__RLSBResultVar	2	1	316	1	10
-137	____ReadLSBytesVar_return	1	1	317	1	5
-138	__RLSBytesCount1	1	1	318	1	7
-139	__SPTArgs	8	0	5	8	36
-140	__SPTArgs.Result	2	1	320	1	36
-141	__SPTArgs.Frequency	3	1	322	2	36
-142	__SPTArgs.Duration	3	1	324	2	36
-143	__SPTArgs.Loop	1	1	326	1	36
-144	__SPTArgs.Volume	1	1	327	1	36
-145	__RBtnArgs	8	0	5	8	4
-146	__RBtnArgs.Result	2	1	328	1	4
-147	__RBtnArgs.Index	1	1	329	1	4
-148	__RBtnArgs.Pressed	1	1	330	1	4
-149	__RBtnArgs.Count	1	1	331	1	4
-150	__RBtnArgs.Reset	1	1	332	1	4
-151	__TextOutArgs	8	0	4	16	42
-152	__TextOutArgs.Result	2	1	336	1	42
-153	__TextOutArgs.Location	8	0	2	4	42
-154	__TextOutArgs.Location.X	4	1	340	2	42
-155	__TextOutArgs.Location.Y	4	1	342	2	42
-156	__TextOutArgs.Text	7	0	344	4	42
-157	__TextOutArgs.Text.Text_type	1	0	0	1	0
-158	__TextOutArgs.Options	5	1	348	4	42
-159	__CLSCSArgs1	8	0	3	4	4
-160	__CLSCSArgs1.Result	2	1	352	1	4
-161	__CLSCSArgs1.Port	1	1	353	1	4
-162	__CLSCSArgs1.BytesReady	1	1	354	1	4
-163	__CLSCSArgs0	8	0	3	4	59
-164	__CLSCSArgs0.Result	2	1	356	1	59
-165	__CLSCSArgs0.Port	1	1	357	1	59
-166	__CLSCSArgs0.BytesReady	1	1	358	1	59
-167	__CLSRArgs1	8	0	4	12	5
-168	__CLSRArgs1.Result	2	1	360	1	5
-169	__CLSRArgs1.Port	1	1	361	1	5
-170	__CLSRArgs1.Buffer	7	0	362	4	5
-171	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
-172	__CLSRArgs1.BufferLen	1	1	364	1	5
-173	__CLSWArgs1	8	0	4	12	5
-174	__CLSWArgs1.Result	2	1	368	1	5
-175	__CLSWArgs1.Port	1	1	369	1	5
-176	__CLSWArgs1.Buffer	7	0	370	4	5
-177	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
-178	__CLSWArgs1.ReturnLen	1	1	372	1	5
-179	__CLSRArgs0	8	0	4	12	25
-180	__CLSRArgs0.Result	2	1	376	1	25
-181	__CLSRArgs0.Port	1	1	377	1	25
-182	__CLSRArgs0.Buffer	7	0	378	4	25
-183	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
-184	__CLSRArgs0.BufferLen	1	1	380	1	25
-185	__CLSWArgs0	8	0	4	12	20
-186	__CLSWArgs0.Result	2	1	384	1	20
-187	__CLSWArgs0.Port	1	1	385	1	20
-188	__CLSWArgs0.Buffer	7	0	386	4	20
-189	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
-190	__CLSWArgs0.ReturnLen	1	1	388	1	20
-191	__RLSReadBufVar	7	0	390	4	12
-192	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
-193	__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString	7	0	392	4	2
-194	__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString.__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString_type	1	0	0	1	0
-195	__constStr0009	7	0	394	4	2
-196	__constStr0009.__constStr0009_type	1	1	0	1	0
-197	__NXTCam_GetBlobs_7qG2_buf_7qG2_000	7	0	396	4	9
-198	__NXTCam_GetBlobs_7qG2_buf_7qG2_000.__NXTCam_GetBlobs_7qG2_buf_7qG2_000_type	1	0	0	1	0
-199	__NXTCam_GetBlobs_7qG2_msg_7qG2_000	7	0	398	4	5
-200	__NXTCam_GetBlobs_7qG2_msg_7qG2_000.__NXTCam_GetBlobs_7qG2_msg_7qG2_000_type	1	0	0	1	0
-201	__NXTCam_SendCommand_7qG2_cmdBuf_7qG2_000	7	0	400	4	2
-202	__NXTCam_SendCommand_7qG2_cmdBuf_7qG2_000.__NXTCam_SendCommand_7qG2_cmdBuf_7qG2_000_type	1	0	0	1	0
-203	__NXTCam_Flush_7qG2_buf_7qG2_000	7	0	402	4	3
-204	__NXTCam_Flush_7qG2_buf_7qG2_000.__NXTCam_Flush_7qG2_buf_7qG2_000_type	1	0	0	1	0
-205	__main_7qG2_br_7qG2_000	7	0	404	4	4
-206	__main_7qG2_br_7qG2_000.__main_7qG2_br_7qG2_000_type	4	0	0	2	0
-207	__main_7qG2_bt_7qG2_000	7	0	406	4	3
-208	__main_7qG2_bt_7qG2_000.__main_7qG2_bt_7qG2_000_type	4	0	0	2	0
-209	__main_7qG2_bl_7qG2_000	7	0	408	4	3
-210	__main_7qG2_bl_7qG2_000.__main_7qG2_bl_7qG2_000_type	4	0	0	2	0
-211	__RLSReadBuf1	7	0	410	4	8
-212	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
-213	__i2cread_7qG2_outbuf_7qG2_000	7	0	412	4	3
-214	__i2cread_7qG2_outbuf_7qG2_000.__i2cread_7qG2_outbuf_7qG2_000_type	1	0	0	1	0
-215	__main_7qG2_bb_7qG2_000	7	0	414	4	3
-216	__main_7qG2_bb_7qG2_000.__main_7qG2_bb_7qG2_000_type	4	0	0	2	0
-217	__main_7qG2_bc_7qG2_000	7	0	416	4	3
-218	__main_7qG2_bc_7qG2_000.__main_7qG2_bc_7qG2_000_type	4	0	0	2	0
-219	__i2cReadString_7qG2_cmdbuf_7qG2_000	7	0	418	4	2
-220	__i2cReadString_7qG2_cmdbuf_7qG2_000.__i2cReadString_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
-221	__RLSLastGoodReadVar	7	0	420	4	2
-222	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
-223	__i2cReadString_7qG2_temp_7qG2_000	7	0	422	4	3
-224	__i2cReadString_7qG2_temp_7qG2_000.__i2cReadString_7qG2_temp_7qG2_000_type	1	0	0	1	0
-225	__i2cread_7qG2_cmdbuf_7qG2_000	7	0	424	4	2
-226	__i2cread_7qG2_cmdbuf_7qG2_000.__i2cread_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
-227	__i2cReadString_7qG2_outbuf_7qG2_000	7	0	426	4	2
-228	__i2cReadString_7qG2_outbuf_7qG2_000.__i2cReadString_7qG2_outbuf_7qG2_000_type	1	0	0	1	0
-229	__OUT_AC	7	0	428	4	3
-230	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-231	__RLSBbufLSWrite1	7	0	430	4	1
-232	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-233	__strretvalShowSensorInfo	7	0	432	4	4
-234	__strretvalShowSensorInfo.__strretvalShowSensorInfo_type	1	0	0	1	0
-235	__strretvali2cReadString	7	0	434	4	2
-236	__strretvali2cReadString.__strretvali2cReadString_type	1	0	0	1	0
-237	__strbufByteArrayToStr_inline_i2cReadString	7	0	436	4	2
-238	__strbufByteArrayToStr_inline_i2cReadString.__strbufByteArrayToStr_inline_i2cReadString_type	1	0	0	1	0
-239	__strbufi2cReadString	7	0	438	4	8
-240	__strbufi2cReadString.__strbufi2cReadString_type	1	0	0	1	0
-241	__strbufNXTCam_Init	7	0	440	4	14
-242	__strbufNXTCam_Init.__strbufNXTCam_Init_type	1	0	0	1	0
-243	__NXTCam_Init_7qG2_cmdbuf_7qG2_000	7	0	442	4	2
-244	__NXTCam_Init_7qG2_cmdbuf_7qG2_000.__NXTCam_Init_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
-245	__NXTCam_Init_7qG2_outbuf_7qG2_000	7	0	444	4	2
-246	__NXTCam_Init_7qG2_outbuf_7qG2_000.__NXTCam_Init_7qG2_outbuf_7qG2_000_type	1	0	0	1	0
-247	__strbufShowSensorInfo	7	0	446	4	4
-248	__strbufShowSensorInfo.__strbufShowSensorInfo_type	1	0	0	1	0
-249	__strretvalNXTCam_Init	7	0	448	4	2
-250	__strretvalNXTCam_Init.__strretvalNXTCam_Init_type	1	0	0	1	0
-251	__NXTCam_Init_7qG2_s_7qG2_000	7	0	450	4	3
-252	__NXTCam_Init_7qG2_s_7qG2_000.__NXTCam_Init_7qG2_s_7qG2_000_type	1	0	0	1	0
-253	__NXTCam_GetBlobs_7qG2_left_7qG2_000	7	0	452	4	6
-254	__NXTCam_GetBlobs_7qG2_left_7qG2_000.__NXTCam_GetBlobs_7qG2_left_7qG2_000_type	4	0	0	2	0
-255	__NXTCam_GetBlobs_7qG2_color_7qG2_000	7	0	454	4	6
-256	__NXTCam_GetBlobs_7qG2_color_7qG2_000.__NXTCam_GetBlobs_7qG2_color_7qG2_000_type	4	0	0	2	0
-257	__NXTCam_GetBlobs_7qG2_top_7qG2_000	7	0	456	4	6
-258	__NXTCam_GetBlobs_7qG2_top_7qG2_000.__NXTCam_GetBlobs_7qG2_top_7qG2_000_type	4	0	0	2	0
-259	__NXTCam_GetBlobs_7qG2_bottom_7qG2_000	7	0	458	4	6
-260	__NXTCam_GetBlobs_7qG2_bottom_7qG2_000.__NXTCam_GetBlobs_7qG2_bottom_7qG2_000_type	4	0	0	2	0
-261	__NXTCam_GetBlobs_7qG2_right_7qG2_000	7	0	460	4	6
-262	__NXTCam_GetBlobs_7qG2_right_7qG2_000.__NXTCam_GetBlobs_7qG2_right_7qG2_000_type	4	0	0	2	0
-263	__constStr0014	7	0	462	4	1
-264	__constStr0014.__constStr0014_type	1	1	0	1	0
-265	__constStr0010	7	0	464	4	1
-266	__constStr0010.__constStr0010_type	1	1	0	1	0
-267	__RLSLastGoodRead1	7	0	466	4	2
-268	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
-269	__constStr0011	7	0	468	4	1
-270	__constStr0011.__constStr0011_type	1	1	0	1	0
-271	__constStr0013	7	0	470	4	1
-272	__constStr0013.__constStr0013_type	1	1	0	1	0
-273	__constStr0012	7	0	472	4	1
-274	__constStr0012.__constStr0012_type	1	1	0	1	0
+54	__ResetSensorMutex	9	0	216	4	4
+55	__CLSCSMutex0	9	0	220	4	30
+56	__CLSRMutex1	9	0	224	4	12
+57	__CLSCSMutex2	9	0	228	4	30
+58	__CLSCSMutex1	9	0	232	4	32
+59	__CLSWMutex1	9	0	236	4	10
+60	__RLSBmutex2	9	0	240	4	6
+61	__NXTCam_Init_7qG2_i_7qG2_000	4	1	244	2	5
+62	__i2cReadString_7qG2_n_7qG2_000	4	1	246	2	3
+63	__main_7qG2_k_7qG2_000	4	1	248	2	8
+64	__main_7qG2_left_right_7qG2_000	4	1	250	2	5
+65	__NXTCam_Init_7qG2_n_7qG2_000	4	1	252	2	3
+66	__NXTCam_GetBlobs_7qG2_i_7qG2_000	4	1	254	2	19
+67	__NXTCam_GetBlobs_7qG2_n_7qG2_000	4	1	256	2	8
+68	__NXTCam_GetBlobs_7qG2_x_7qG2_000	4	1	258	2	2
+69	__NXTCam_SendCommand_7qG2_status_7qG2_000	4	1	260	2	3
+70	__main_7qG2_kp_7qG2_003	4	1	262	2	6
+71	__NXTCam_Flush_7qG2_n_7qG2_000	4	1	264	2	3
+72	__i2cread_7qG2_loop_7qG2_000	4	1	266	2	3
+73	__main_7qG2_blobIndex_7qG2_003	4	1	268	2	3
+74	__NXTCam_GetBlobs_7qG2_nblobs_7qG2_000	4	1	270	2	7
+75	__main_7qG2_i_7qG2_004	4	1	272	2	7
+76	__main_7qG2_aux_7qG2_003	4	1	274	2	3
+77	__constValNeg999	4	0	276	2	1
+78	nblobs	4	1	278	2	4
+79	__NXTCam_GetBlobs_7qG2_nByteReady_7qG2_000	1	1	280	1	7
+80	__NXTCam_SendCommand_7qG2_camAddr_7qG2_000	1	1	281	1	7
+81	__NXTCam_SendCommand_7qG2_camPort_7qG2_000	1	1	282	1	10
+82	__NXTCam_SendCommand_7qG2_cmd_7qG2_000	1	1	283	1	7
+83	__NXTCam_GetBlobs_return	1	1	284	1	7
+84	__NXTCam_SendCommand_return	1	1	285	1	8
+85	__constVal96	2	0	286	1	11
+86	__constVal1	2	0	287	1	16
+87	__constVal63	2	0	288	1	11
+88	__i2cReadString_7qG2_cnt_7qG2_000	1	1	289	1	5
+89	__i2cReadString_return	1	1	290	1	6
+90	__i2cReadString_7qG2_nByteReady_7qG2_000	1	1	291	1	2
+91	__NXTCam_Flush_7qG2_nByteReady_7qG2_000	1	1	292	1	3
+92	____initialize_global_data_return	1	1	293	1	3
+93	__NXTCam_Flush_return	1	1	294	1	3
+94	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	295	1	4
+95	__NXTCam_Flush_7qG2_camPort_7qG2_000	1	1	296	1	5
+96	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	297	1	2
+97	__ShowSensorInfo_7qG2_prt_7qG2_000	1	1	298	1	5
+98	__ShowSensorInfo_7qG2_Addres_7qG2_000	1	1	299	1	5
+99	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	300	1	2
+100	__NXTCam_Init_return	1	1	301	1	5
+101	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_NXTCam_Init	1	1	302	1	4
+102	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_NXTCam_Init	1	1	303	1	2
+103	__NXTCam_Init_7qG2_cnt_7qG2_000	1	1	304	1	3
+104	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	305	1	2
+105	__NXTCam_Init_7qG2_nByteReady_7qG2_000	1	1	306	1	2
+106	__constVal65	2	0	307	1	1
+107	__NXTCam_GetBlobs_7qG2_port_7qG2_000	1	1	308	1	12
+108	__NXTCam_GetBlobs_7qG2_camAddr_7qG2_000	1	1	309	1	3
+109	__ShowSensorInfo_return	1	1	310	1	4
+110	__NXTCam_SendCommand_7qG2_nByteReady_7qG2_000	1	1	311	1	2
+111	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	312	1	2
+112	__NXTCam_Init_7qG2_camAddr_7qG2_000	1	1	313	1	4
+113	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init	1	1	314	1	2
+114	__NXTCam_Init_7qG2_camPort_7qG2_000	1	1	315	1	3
+115	__constVal0	2	1	316	1	52
+116	__i2cReadString_7qG2_reg_7qG2_000	1	1	317	1	4
+117	__constVal32	2	0	318	1	33
+118	__RLSBytesCount1	1	1	319	1	7
+119	__constVal2	2	0	320	1	3
+120	__RLSBIterations1	1	1	321	1	4
+121	__RLSBResult1	2	1	322	1	7
+122	__LSWriteOptions1	1	1	323	1	1
+123	__LSWriteOptionsVar	1	1	324	1	4
+124	____ReadLSBytes1_return	1	1	325	1	3
+125	__tmpsbyteNXTCam_SendCommand	2	1	326	1	2
+126	__constVal66	2	0	327	1	1
+127	__RLSBResultVar	2	1	328	1	10
+128	__RLSBytesCountVar	1	1	329	1	12
+129	____ReadLSBytesVar_return	1	1	330	1	5
+130	__constValNeg2	2	0	331	1	1
+131	__RLSBIterationsVar	1	1	332	1	4
+132	__PFTmp	1	1	333	1	1
+133	__constVal15	2	0	334	1	2
+134	__RLSReadPort	1	1	335	1	6
+135	__constVal10	2	0	336	1	8
+136	__i2cread_7qG2_prt_7qG2_000	1	1	337	1	3
+137	__i2cReadString_7qG2_prt_7qG2_000	1	1	338	1	5
+138	__constVal3	2	0	339	1	12
+139	__ResetSensorPort	1	1	340	1	4
+140	__constVal5	2	0	341	1	2
+141	__i2cread_7qG2_adr_7qG2_000	1	1	342	1	2
+142	__i2cread_7qG2_result_7qG2_000	1	1	343	1	5
+143	__constValNeg1	2	0	344	1	6
+144	__i2cread_return	1	1	345	1	4
+145	__i2cread_7qG2_reg_7qG2_000	1	1	346	1	2
+146	__i2cread_7qG2_cnt_7qG2_000	1	1	347	1	4
+147	__i2cReadString_7qG2_adr_7qG2_000	1	1	348	1	4
+148	____ResetSensorSubroutine_return	1	1	349	1	4
+149	__ResetSensorTmp	1	1	350	1	2
+150	__CLSWArgs1	8	0	4	12	5
+151	__CLSWArgs1.Result	2	1	352	1	5
+152	__CLSWArgs1.Port	1	1	353	1	5
+153	__CLSWArgs1.Buffer	7	0	354	4	5
+154	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+155	__CLSWArgs1.ReturnLen	1	1	356	1	5
+156	__CLSRArgs1	8	0	4	12	5
+157	__CLSRArgs1.Result	2	1	360	1	5
+158	__CLSRArgs1.Port	1	1	361	1	5
+159	__CLSRArgs1.Buffer	7	0	362	4	5
+160	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+161	__CLSRArgs1.BufferLen	1	1	364	1	5
+162	__CLSRArgs0	8	0	4	12	25
+163	__CLSRArgs0.Result	2	1	368	1	25
+164	__CLSRArgs0.Port	1	1	369	1	25
+165	__CLSRArgs0.Buffer	7	0	370	4	25
+166	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+167	__CLSRArgs0.BufferLen	1	1	372	1	25
+168	__RBtnArgs	8	0	5	8	4
+169	__RBtnArgs.Result	2	1	376	1	4
+170	__RBtnArgs.Index	1	1	377	1	4
+171	__RBtnArgs.Pressed	1	1	378	1	4
+172	__RBtnArgs.Count	1	1	379	1	4
+173	__RBtnArgs.Reset	1	1	380	1	4
+174	__CLSCSArgs1	8	0	3	4	4
+175	__CLSCSArgs1.Result	2	1	384	1	4
+176	__CLSCSArgs1.Port	1	1	385	1	4
+177	__CLSCSArgs1.BytesReady	1	1	386	1	4
+178	__CLSCSArgs0	8	0	3	4	59
+179	__CLSCSArgs0.Result	2	1	388	1	59
+180	__CLSCSArgs0.Port	1	1	389	1	59
+181	__CLSCSArgs0.BytesReady	1	1	390	1	59
+182	__TextOutArgs	8	0	4	16	42
+183	__TextOutArgs.Result	2	1	392	1	42
+184	__TextOutArgs.Location	8	0	2	4	42
+185	__TextOutArgs.Location.X	4	1	396	2	42
+186	__TextOutArgs.Location.Y	4	1	398	2	42
+187	__TextOutArgs.Text	7	0	400	4	42
+188	__TextOutArgs.Text.Text_type	1	0	0	1	0
+189	__TextOutArgs.Options	5	1	404	4	42
+190	__CLSWArgs0	8	0	4	12	20
+191	__CLSWArgs0.Result	2	1	408	1	20
+192	__CLSWArgs0.Port	1	1	409	1	20
+193	__CLSWArgs0.Buffer	7	0	410	4	20
+194	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+195	__CLSWArgs0.ReturnLen	1	1	412	1	20
+196	__SPTArgs	8	0	5	8	36
+197	__SPTArgs.Result	2	1	416	1	36
+198	__SPTArgs.Frequency	3	1	418	2	36
+199	__SPTArgs.Duration	3	1	420	2	36
+200	__SPTArgs.Loop	1	1	422	1	36
+201	__SPTArgs.Volume	1	1	423	1	36
+202	__main_7qG2_bl_7qG2_000	7	0	424	4	3
+203	__main_7qG2_bl_7qG2_000.__main_7qG2_bl_7qG2_000_type	4	0	0	2	0
+204	__NXTCam_GetBlobs_7qG2_bottom_7qG2_000	7	0	426	4	6
+205	__NXTCam_GetBlobs_7qG2_bottom_7qG2_000.__NXTCam_GetBlobs_7qG2_bottom_7qG2_000_type	4	0	0	2	0
+206	__main_7qG2_bc_7qG2_000	7	0	428	4	3
+207	__main_7qG2_bc_7qG2_000.__main_7qG2_bc_7qG2_000_type	4	0	0	2	0
+208	__main_7qG2_bt_7qG2_000	7	0	430	4	3
+209	__main_7qG2_bt_7qG2_000.__main_7qG2_bt_7qG2_000_type	4	0	0	2	0
+210	__main_7qG2_bb_7qG2_000	7	0	432	4	5
+211	__main_7qG2_bb_7qG2_000.__main_7qG2_bb_7qG2_000_type	4	0	0	2	0
+212	__main_7qG2_br_7qG2_000	7	0	434	4	4
+213	__main_7qG2_br_7qG2_000.__main_7qG2_br_7qG2_000_type	4	0	0	2	0
+214	__OUT_AC	7	0	436	4	4
+215	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+216	__NXTCam_GetBlobs_7qG2_msg_7qG2_000	7	0	438	4	5
+217	__NXTCam_GetBlobs_7qG2_msg_7qG2_000.__NXTCam_GetBlobs_7qG2_msg_7qG2_000_type	1	0	0	1	0
+218	__NXTCam_GetBlobs_7qG2_buf_7qG2_000	7	0	440	4	9
+219	__NXTCam_GetBlobs_7qG2_buf_7qG2_000.__NXTCam_GetBlobs_7qG2_buf_7qG2_000_type	1	0	0	1	0
+220	__NXTCam_GetBlobs_7qG2_right_7qG2_000	7	0	442	4	6
+221	__NXTCam_GetBlobs_7qG2_right_7qG2_000.__NXTCam_GetBlobs_7qG2_right_7qG2_000_type	4	0	0	2	0
+222	__strretvalShowSensorInfo	7	0	444	4	4
+223	__strretvalShowSensorInfo.__strretvalShowSensorInfo_type	1	0	0	1	0
+224	__strbufByteArrayToStr_inline_i2cReadString	7	0	446	4	2
+225	__strbufByteArrayToStr_inline_i2cReadString.__strbufByteArrayToStr_inline_i2cReadString_type	1	0	0	1	0
+226	__RLSBbufLSWrite1	7	0	448	4	1
+227	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+228	__strbufShowSensorInfo	7	0	450	4	4
+229	__strbufShowSensorInfo.__strbufShowSensorInfo_type	1	0	0	1	0
+230	__i2cReadString_7qG2_outbuf_7qG2_000	7	0	452	4	2
+231	__i2cReadString_7qG2_outbuf_7qG2_000.__i2cReadString_7qG2_outbuf_7qG2_000_type	1	0	0	1	0
+232	__i2cReadString_7qG2_cmdbuf_7qG2_000	7	0	454	4	2
+233	__i2cReadString_7qG2_cmdbuf_7qG2_000.__i2cReadString_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+234	__i2cread_7qG2_outbuf_7qG2_000	7	0	456	4	3
+235	__i2cread_7qG2_outbuf_7qG2_000.__i2cread_7qG2_outbuf_7qG2_000_type	1	0	0	1	0
+236	__i2cread_7qG2_cmdbuf_7qG2_000	7	0	458	4	2
+237	__i2cread_7qG2_cmdbuf_7qG2_000.__i2cread_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+238	__RLSReadBuf1	7	0	460	4	8
+239	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+240	__strbufi2cReadString	7	0	462	4	8
+241	__strbufi2cReadString.__strbufi2cReadString_type	1	0	0	1	0
+242	__RLSLastGoodReadVar	7	0	464	4	2
+243	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+244	__RLSReadBufVar	7	0	466	4	12
+245	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+246	__strbufNXTCam_Init	7	0	468	4	14
+247	__strbufNXTCam_Init.__strbufNXTCam_Init_type	1	0	0	1	0
+248	__strretvalNXTCam_Init	7	0	470	4	2
+249	__strretvalNXTCam_Init.__strretvalNXTCam_Init_type	1	0	0	1	0
+250	__strretvali2cReadString	7	0	472	4	2
+251	__strretvali2cReadString.__strretvali2cReadString_type	1	0	0	1	0
+252	__RLSLastGoodRead1	7	0	474	4	2
+253	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+254	__constStr0012	7	0	476	4	1
+255	__constStr0012.__constStr0012_type	1	1	0	1	0
+256	__constStr0013	7	0	478	4	1
+257	__constStr0013.__constStr0013_type	1	1	0	1	0
+258	__constStr0010	7	0	480	4	1
+259	__constStr0010.__constStr0010_type	1	1	0	1	0
+260	__constStr0011	7	0	482	4	1
+261	__constStr0011.__constStr0011_type	1	1	0	1	0
+262	__NXTCam_GetBlobs_7qG2_left_7qG2_000	7	0	484	4	6
+263	__NXTCam_GetBlobs_7qG2_left_7qG2_000.__NXTCam_GetBlobs_7qG2_left_7qG2_000_type	4	0	0	2	0
+264	__NXTCam_GetBlobs_7qG2_top_7qG2_000	7	0	486	4	6
+265	__NXTCam_GetBlobs_7qG2_top_7qG2_000.__NXTCam_GetBlobs_7qG2_top_7qG2_000_type	4	0	0	2	0
+266	__constStr0014	7	0	488	4	1
+267	__constStr0014.__constStr0014_type	1	1	0	1	0
+268	__NXTCam_GetBlobs_7qG2_color_7qG2_000	7	0	490	4	6
+269	__NXTCam_GetBlobs_7qG2_color_7qG2_000.__NXTCam_GetBlobs_7qG2_color_7qG2_000_type	4	0	0	2	0
+270	__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString	7	0	492	4	2
+271	__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString.__ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString_type	1	0	0	1	0
+272	__NXTCam_Flush_7qG2_buf_7qG2_000	7	0	494	4	3
+273	__NXTCam_Flush_7qG2_buf_7qG2_000.__NXTCam_Flush_7qG2_buf_7qG2_000_type	1	0	0	1	0
+274	__i2cReadString_7qG2_temp_7qG2_000	7	0	496	4	3
+275	__i2cReadString_7qG2_temp_7qG2_000.__i2cReadString_7qG2_temp_7qG2_000_type	1	0	0	1	0
+276	__constStr0009	7	0	498	4	2
+277	__constStr0009.__constStr0009_type	1	1	0	1	0
+278	__NXTCam_Init_7qG2_outbuf_7qG2_000	7	0	500	4	2
+279	__NXTCam_Init_7qG2_outbuf_7qG2_000.__NXTCam_Init_7qG2_outbuf_7qG2_000_type	1	0	0	1	0
+280	__NXTCam_Init_7qG2_cmdbuf_7qG2_000	7	0	502	4	2
+281	__NXTCam_Init_7qG2_cmdbuf_7qG2_000.__NXTCam_Init_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+282	__NXTCam_SendCommand_7qG2_cmdBuf_7qG2_000	7	0	504	4	2
+283	__NXTCam_SendCommand_7qG2_cmdBuf_7qG2_000.__NXTCam_SendCommand_7qG2_cmdBuf_7qG2_000_type	1	0	0	1	0
+284	__NXTCam_Init_7qG2_s_7qG2_000	7	0	506	4	3
+285	__NXTCam_Init_7qG2_s_7qG2_000.__NXTCam_Init_7qG2_s_7qG2_000_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	27	0	#line 27 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
@@ -291,483 +302,650 @@ Clump	Line	PC	Source
 0	4294	13		acquire __ResetSensorMutex
 0	4294	14		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
 0	4294	16		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4294	18		release __ResetSensorMutex
-0	9494	19	#line 9494 "NXCDefs.h"
-0	4295	19	#line 4295 "NXCDefs.h"
-0	28	19	#line 28 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	28	19	#line 28 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	29	19		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
-0	28	22	#line 28 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	22	#line 8551 "NXCDefs.h"
-0	8552	22		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	25	#line 8551 "NXCDefs.h"
-0	29	25	#line 29 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	29	25	#line 29 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	30	25		set __D0main, 100
-0	30	28	#line 30 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	31	28	#pragma macro 7
-0	31	28		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9512	51	#line 9512 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	30	51	#line 30 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	31	51	#line 31 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	32	51		arrinit __main_7qG2_bc_7qG2_000, __constVal0, __constVal10
-0	32	55	#line 32 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	33	55		arrinit __main_7qG2_bl_7qG2_000, __constVal0, __constVal10
-0	33	59	#line 33 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	34	59		arrinit __main_7qG2_bt_7qG2_000, __constVal0, __constVal10
-0	34	63	#line 34 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	35	63		arrinit __main_7qG2_br_7qG2_000, __constVal0, __constVal10
-0	35	67	#line 35 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	36	67		arrinit __main_7qG2_bb_7qG2_000, __constVal0, __constVal10
-0	38	71	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	39	71		set __main_7qG2_k_7qG2_000, 0
-0	38	74	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	40	74	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	41	74		set __ShowSensorInfo_7qG2_prt_7qG2_000, 0
-0	40	77	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	40	77	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	41	77		set __ShowSensorInfo_7qG2_Addres_7qG2_000, 2
-0	40	80	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	41	80	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	42	80		subcall ShowSensorInfo, __ShowSensorInfo_return
-0	41	82	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	41	82	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	42	82		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	41	85	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	85	#line 8551 "NXCDefs.h"
-0	8552	85		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	88	#line 8551 "NXCDefs.h"
-0	43	88	#line 43 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	43	88	#line 43 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	44	88		set __NXTCam_Init_7qG2_camPort_7qG2_000, 0
-0	43	91	#line 43 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	43	91	#line 43 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	44	91		set __NXTCam_Init_7qG2_camAddr_7qG2_000, 2
-0	43	94	#line 43 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	44	94	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	45	94		subcall NXTCam_Init, __NXTCam_Init_return
-0	44	96	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	44	96	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	44	96	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	44	96	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	45	96		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
-0	44	99	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	99	#line 8551 "NXCDefs.h"
-0	8552	99		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	102	#line 8551 "NXCDefs.h"
-0	45	102	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	45	102	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	46	102		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
-0	45	105	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	45	105	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	46	105		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
-0	45	108	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	45	108	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	46	108		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 69
-0	45	111	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	46	111	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	47	111		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
-0	46	113	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	46	113	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	47	113		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
-0	46	116	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	116	#line 8551 "NXCDefs.h"
-0	8552	116		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	119	#line 8551 "NXCDefs.h"
-0	47	119	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	47	119	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	48	119		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
-0	47	122	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	47	122	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	48	122		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
-0	47	125	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	47	125	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	48	125		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 68
-0	47	128	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	48	128	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	49	128		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
-0	48	130	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	48	130	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	49	130		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
-0	48	133	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	133	#line 8551 "NXCDefs.h"
-0	8552	133		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	136	#line 8551 "NXCDefs.h"
-0	49	136	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	49	136	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	50	136		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
-0	49	139	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	49	139	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	50	139		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
-0	49	142	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	49	142	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	50	142		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 76
-0	49	145	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	50	145	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	51	145		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
-0	50	147	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	50	147	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	51	147		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
-0	50	150	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	150	#line 8551 "NXCDefs.h"
-0	8552	150		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	153	#line 8551 "NXCDefs.h"
-0	51	153	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	51	153	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	52	153		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
-0	51	156	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	51	156	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	52	156		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
-0	51	159	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	51	159	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	52	159		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 69
-0	51	162	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	52	162	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	53	162		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
-0	52	164	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	52	164	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	53	164		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
-0	52	167	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	167	#line 8551 "NXCDefs.h"
-0	8552	167		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	170	#line 8551 "NXCDefs.h"
-0	53	170	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	53	170	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	54	170		set __signed_stack_001main, 440
-0	53	173	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	53	173	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	54	173		set __signed_stack_002main, 50
-0	53	176	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	53	176	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	54	176		set __signed_stack_003main, 4
-0	53	179	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	53	179	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	54	179		set __D0main, 0
-0	54	182	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	182		acquire __SPTArgsMutex
+0	4294	19		release __ResetSensorMutex
+0	9494	20	#line 9494 "NXCDefs.h"
+0	4295	20	#line 4295 "NXCDefs.h"
+0	28	20	#line 28 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	28	20	#line 28 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	29	20		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	28	23	#line 28 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	23	#line 8551 "NXCDefs.h"
+0	8552	23		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	26	#line 8551 "NXCDefs.h"
+0	29	26	#line 29 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	29	26	#line 29 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	30	26		set __D0main, 100
+0	30	29	#line 30 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	31	29	#pragma macro 7
+0	31	29		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9512	52	#line 9512 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	30	52	#line 30 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	31	52	#line 31 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	32	52		arrinit __main_7qG2_bc_7qG2_000, __constVal0, __constVal10
+0	32	56	#line 32 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	33	56		arrinit __main_7qG2_bl_7qG2_000, __constVal0, __constVal10
+0	33	60	#line 33 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	34	60		arrinit __main_7qG2_bt_7qG2_000, __constVal0, __constVal10
+0	34	64	#line 34 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	35	64		arrinit __main_7qG2_br_7qG2_000, __constVal0, __constVal10
+0	35	68	#line 35 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	36	68		arrinit __main_7qG2_bb_7qG2_000, __constVal0, __constVal10
+0	38	72	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	39	72		set __main_7qG2_k_7qG2_000, 0
+0	38	75	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	41	75	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	42	75		set __main_7qG2_left_right_7qG2_000, 1
+0	41	78	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	41	78	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	42	78		set __ShowSensorInfo_7qG2_prt_7qG2_000, 0
+0	41	81	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	41	81	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	42	81		set __ShowSensorInfo_7qG2_Addres_7qG2_000, 2
+0	41	84	#line 41 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	42	84	#line 42 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	43	84		subcall ShowSensorInfo, __ShowSensorInfo_return
+0	42	86	#line 42 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	42	86	#line 42 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	43	86		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	42	89	#line 42 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	89	#line 8551 "NXCDefs.h"
+0	8552	89		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	92	#line 8551 "NXCDefs.h"
+0	44	92	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	44	92	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	45	92		set __NXTCam_Init_7qG2_camPort_7qG2_000, 0
+0	44	95	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	44	95	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	45	95		set __NXTCam_Init_7qG2_camAddr_7qG2_000, 2
+0	44	98	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	45	98	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	46	98		subcall NXTCam_Init, __NXTCam_Init_return
+0	45	100	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	45	100	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	45	100	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	45	100	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	46	100		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	45	103	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	103	#line 8551 "NXCDefs.h"
+0	8552	103		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	106	#line 8551 "NXCDefs.h"
+0	46	106	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	46	106	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	47	106		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
+0	46	109	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	46	109	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	47	109		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
+0	46	112	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	46	112	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	47	112		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 69
+0	46	115	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	47	115	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	48	115		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
+0	47	117	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	47	117	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	48	117		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	47	120	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	120	#line 8551 "NXCDefs.h"
+0	8552	120		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	123	#line 8551 "NXCDefs.h"
+0	48	123	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	48	123	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	49	123		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
+0	48	126	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	48	126	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	49	126		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
+0	48	129	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	48	129	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	49	129		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 68
+0	48	132	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	49	132	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	50	132		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
+0	49	134	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	49	134	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	50	134		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	49	137	#line 49 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	137	#line 8551 "NXCDefs.h"
+0	8552	137		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	140	#line 8551 "NXCDefs.h"
+0	50	140	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	50	140	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	51	140		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
+0	50	143	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	50	143	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	51	143		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
+0	50	146	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	50	146	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	51	146		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 76
+0	50	149	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	51	149	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	52	149		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
+0	51	151	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	51	151	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	52	151		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	51	154	#line 51 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	154	#line 8551 "NXCDefs.h"
+0	8552	154		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	157	#line 8551 "NXCDefs.h"
+0	52	157	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	52	157	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	53	157		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
+0	52	160	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	52	160	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	53	160		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
+0	52	163	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	52	163	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	53	163		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 69
+0	52	166	#line 52 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	53	166	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	54	166		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
+0	53	168	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	53	168	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	54	168		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	53	171	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	171	#line 8551 "NXCDefs.h"
+0	8552	171		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	174	#line 8551 "NXCDefs.h"
+0	54	174	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	54	174	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	55	174		set __signed_stack_001main, 440
+0	54	177	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	54	177	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	55	177		set __signed_stack_002main, 50
+0	54	180	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	54	180	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	55	180		set __signed_stack_003main, 4
 0	54	183	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	183		mov __SPTArgs.Frequency, __signed_stack_001main
-0	54	185	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	185		mov __SPTArgs.Duration, __signed_stack_002main
-0	54	187	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	187		mov __SPTArgs.Volume, __signed_stack_003main
-0	54	189	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	189		mov __SPTArgs.Loop, __D0main
-0	54	191	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	191		syscall 10, __SPTArgs
-0	54	194	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	194		mov __D0main, __SPTArgs.Result
-0	54	196	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	196		release __SPTArgsMutex
-0	54	197	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	55	197	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	56	197		set __D0main, 1
-0	56	200	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	57	200		tst 5, __D0main, __D0main
-0	56	203	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	57	203		brtst 4, __ASM_Label_1341, __D0main
+0	54	183	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	55	183		set __D0main, 0
+0	55	186	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	186		acquire __SPTArgsMutex
+0	55	187	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	187		mov __SPTArgs.Frequency, __signed_stack_001main
+0	55	190	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	190		mov __SPTArgs.Duration, __signed_stack_002main
+0	55	193	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	193		mov __SPTArgs.Volume, __signed_stack_003main
+0	55	196	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	196		mov __SPTArgs.Loop, __D0main
+0	55	199	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	199		syscall 10, __SPTArgs
+0	55	202	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	202		mov __D0main, __SPTArgs.Result
+0	55	205	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	56	205		release __SPTArgsMutex
+0	55	206	#line 55 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 0	56	206	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	57	206	#pragma macro 26
-0	57	206		acquire __RLSBmutex1
-0	57	207		mov __RLSReadBuf1, __RLSBbufLSWrite1
-0	57	209		set __RLSBytesCount1, 1
-0	57	212		wait2 NA, __constVal15
-0	57	215		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-0	57	217		index __D0main, __RLSReadBuf1, 65535
-0	57	221		release __RLSBmutex1
-0	9745	222	#line 9745 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	56	222	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	57	222		mov __signed_stack_001main, __D0main
-0	57	224	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	58	224		set __D0main, 1
-0	57	227	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	58	227		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	58	231	#line 58 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	59	231		brtst 4, __ASM_Label_1346, __D0main
-0	59	234	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	60	234	#pragma macro 7
-0	60	234		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9759	257	#line 9759 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	59	257	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	59	257	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	60	257		set __signed_stack_001main, 500
-0	59	260	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	59	260	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	60	260		set __signed_stack_002main, 50
-0	59	263	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	59	263	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	60	263		set __signed_stack_003main, 4
-0	59	266	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	59	266	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	60	266		set __D0main, 0
+0	57	206		set __D0main, 1
+0	57	209	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	58	209		tst 5, __D0main, __D0main
+0	57	212	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	58	212		brtst 4, __ASM_Label_1343, __D0main
+0	57	215	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	58	215	#pragma macro 26
+0	58	215		acquire __RLSBmutex1
+0	58	216		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	58	218		set __RLSBytesCount1, 1
+0	58	221		wait2 NA, __constVal15
+0	58	224		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	58	226		index __D0main, __RLSReadBuf1, 65535
+0	58	230		release __RLSBmutex1
+0	9753	231	#line 9753 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	57	231	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	58	231		mov __signed_stack_001main, __D0main
+0	58	233	#line 58 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	59	233		set __D0main, 20
+0	58	236	#line 58 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	59	236		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	59	240	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	60	240		brtst 4, __ASM_Label_1348, __D0main
+0	60	243	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	61	243	#pragma macro 7
+0	61	243		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9767	266	#line 9767 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	60	266	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	60	266	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	61	266		set __signed_stack_001main, 500
 0	60	269	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	269		acquire __SPTArgsMutex
-0	60	270	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	270		mov __SPTArgs.Frequency, __signed_stack_001main
+0	60	269	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	61	269		set __signed_stack_002main, 50
 0	60	272	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	272		mov __SPTArgs.Duration, __signed_stack_002main
-0	60	274	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	274		mov __SPTArgs.Volume, __signed_stack_003main
-0	60	276	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	276		mov __SPTArgs.Loop, __D0main
-0	60	278	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	278		syscall 10, __SPTArgs
-0	60	281	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	281		mov __D0main, __SPTArgs.Result
-0	60	283	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	283		release __SPTArgsMutex
-0	60	284	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	60	284	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	61	284		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
-0	60	287	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	287	#line 8551 "NXCDefs.h"
-0	8552	287		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	290	#line 8551 "NXCDefs.h"
-0	61	290	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	64	290	#line 64 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	65	290		jmp __ASM_Label_1357
-0	64	292	#line 64 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	65	292		set __ShowSensorInfo_7qG2_prt_7qG2_000, 0
-0	64	295	#line 64 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	64	295	#line 64 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	65	295		set __ShowSensorInfo_7qG2_Addres_7qG2_000, 2
-0	64	298	#line 64 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	65	298	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	66	298		subcall ShowSensorInfo, __ShowSensorInfo_return
-0	65	300	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	65	300	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	66	300		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
-0	65	303	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	303	#line 8551 "NXCDefs.h"
-0	8552	303		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	306	#line 8551 "NXCDefs.h"
-0	66	306	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	66	306	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	306		set __NXTCam_GetBlobs_7qG2_port_7qG2_000, 0
-0	66	309	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	66	309	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	309		set __NXTCam_GetBlobs_7qG2_camAddr_7qG2_000, 2
+0	60	272	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	61	272		set __signed_stack_003main, 4
+0	60	275	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	60	275	#line 60 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	61	275		set __D0main, 0
+0	61	278	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	278		acquire __SPTArgsMutex
+0	61	279	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	279		mov __SPTArgs.Frequency, __signed_stack_001main
+0	61	282	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	282		mov __SPTArgs.Duration, __signed_stack_002main
+0	61	285	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	285		mov __SPTArgs.Volume, __signed_stack_003main
+0	61	288	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	288		mov __SPTArgs.Loop, __D0main
+0	61	291	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	291		syscall 10, __SPTArgs
+0	61	294	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	294		mov __D0main, __SPTArgs.Result
+0	61	297	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	297		release __SPTArgsMutex
+0	61	298	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	61	298	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	62	298		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	61	301	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	301	#line 8551 "NXCDefs.h"
+0	8552	301		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	304	#line 8551 "NXCDefs.h"
+0	62	304	#line 62 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	65	304	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	66	304		jmp __ASM_Label_1359
+0	65	306	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	66	306		set __ShowSensorInfo_7qG2_prt_7qG2_000, 0
+0	65	309	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	65	309	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	66	309		set __ShowSensorInfo_7qG2_Addres_7qG2_000, 2
+0	65	312	#line 65 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 0	66	312	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	66	312	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	312		mov __NXTCam_GetBlobs_7qG2_nblobs_7qG2_000, nblobs
+0	67	312		subcall ShowSensorInfo, __ShowSensorInfo_return
 0	66	314	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	314		mov __NXTCam_GetBlobs_7qG2_color_7qG2_000, __main_7qG2_bc_7qG2_000
-0	66	316	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	316		mov __NXTCam_GetBlobs_7qG2_left_7qG2_000, __main_7qG2_bl_7qG2_000
-0	66	318	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	318		mov __NXTCam_GetBlobs_7qG2_top_7qG2_000, __main_7qG2_bt_7qG2_000
-0	66	320	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	320		mov __NXTCam_GetBlobs_7qG2_right_7qG2_000, __main_7qG2_br_7qG2_000
-0	66	322	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	67	322		mov __NXTCam_GetBlobs_7qG2_bottom_7qG2_000, __main_7qG2_bb_7qG2_000
-0	67	324	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	324		subcall NXTCam_GetBlobs, __NXTCam_GetBlobs_return
+0	66	314	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	67	314		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	66	317	#line 66 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	317	#line 8551 "NXCDefs.h"
+0	8552	317		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	320	#line 8551 "NXCDefs.h"
+0	67	320	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	67	320	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	68	320		set __NXTCam_GetBlobs_7qG2_port_7qG2_000, 0
+0	67	323	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	67	323	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	68	323		set __NXTCam_GetBlobs_7qG2_camAddr_7qG2_000, 2
 0	67	326	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	326		mov nblobs, __NXTCam_GetBlobs_7qG2_nblobs_7qG2_000
+0	67	326	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	68	326		mov __NXTCam_GetBlobs_7qG2_nblobs_7qG2_000, nblobs
 0	67	328	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	328		mov __main_7qG2_bc_7qG2_000, __NXTCam_GetBlobs_7qG2_color_7qG2_000
+0	68	328		mov __NXTCam_GetBlobs_7qG2_color_7qG2_000, __main_7qG2_bc_7qG2_000
 0	67	330	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	330		mov __main_7qG2_bl_7qG2_000, __NXTCam_GetBlobs_7qG2_left_7qG2_000
+0	68	330		mov __NXTCam_GetBlobs_7qG2_left_7qG2_000, __main_7qG2_bl_7qG2_000
 0	67	332	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	332		mov __main_7qG2_bt_7qG2_000, __NXTCam_GetBlobs_7qG2_top_7qG2_000
+0	68	332		mov __NXTCam_GetBlobs_7qG2_top_7qG2_000, __main_7qG2_bt_7qG2_000
 0	67	334	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	334		mov __main_7qG2_br_7qG2_000, __NXTCam_GetBlobs_7qG2_right_7qG2_000
+0	68	334		mov __NXTCam_GetBlobs_7qG2_right_7qG2_000, __main_7qG2_br_7qG2_000
 0	67	336	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	336		mov __main_7qG2_bb_7qG2_000, __NXTCam_GetBlobs_7qG2_bottom_7qG2_000
-0	67	338	#line 67 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	68	336		mov __NXTCam_GetBlobs_7qG2_bottom_7qG2_000, __main_7qG2_bb_7qG2_000
 0	68	338	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	69	338		set __main_7qG2_k_7qG2_000, 0
-0	68	341	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	341	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	68	341	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	69	341		mov __signed_stack_001main, nblobs
-0	68	343	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	69	343	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	70	343		set __D0main, 0
-0	69	346	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	70	346		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	70	350	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	71	350		brtst 4, __ASM_Label_1372, __D0main
-0	70	353	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	71	353		set __signed_stack_001main, 0
-0	70	356	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	70	356	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	71	356		index __signed_stack_001main, __main_7qG2_br_7qG2_000, __signed_stack_001main
-0	70	360	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	70	360	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	69	338		subcall NXTCam_GetBlobs, __NXTCam_GetBlobs_return
+0	68	340	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	69	340		mov nblobs, __NXTCam_GetBlobs_7qG2_nblobs_7qG2_000
+0	68	342	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	69	342		mov __main_7qG2_bc_7qG2_000, __NXTCam_GetBlobs_7qG2_color_7qG2_000
+0	68	344	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	69	344		mov __main_7qG2_bl_7qG2_000, __NXTCam_GetBlobs_7qG2_left_7qG2_000
+0	68	346	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	69	346		mov __main_7qG2_bt_7qG2_000, __NXTCam_GetBlobs_7qG2_top_7qG2_000
+0	68	348	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	69	348		mov __main_7qG2_br_7qG2_000, __NXTCam_GetBlobs_7qG2_right_7qG2_000
+0	68	350	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	69	350		mov __main_7qG2_bb_7qG2_000, __NXTCam_GetBlobs_7qG2_bottom_7qG2_000
+0	68	352	#line 68 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	70	352	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	71	352		set __main_7qG2_k_7qG2_000, 0
+0	70	355	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	70	355	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	70	355	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	71	355		mov __signed_stack_001main, nblobs
+0	70	357	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	71	357	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	72	357		set __D0main, 0
 0	71	360	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	72	360		set __D0main, 100
-0	71	363	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	72	363		sub __main_7qG2_k_7qG2_000, __signed_stack_001main, __D0main
-0	71	367	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	71	367	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	71	367	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	72	367		mov __signed_stack_001main, __main_7qG2_k_7qG2_000
-0	71	369	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	72	369	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	73	369		set __D0main, 3
-0	72	372	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	73	372		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	73	376	#line 73 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	74	376		brtst 4, __ASM_Label_1379, __D0main
-0	73	379	#line 73 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	74	379		set __D0main, 55
-0	74	382	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	75	382	#pragma macro 7
-0	75	382		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9924	405	#line 9924 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	74	405	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	74	405	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	75	405		set __D0main, 5
-0	76	408	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	77	408	#pragma macro 7
-0	77	408		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9929	431	#line 9929 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	76	431	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	77	431	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	78	431		jmp __ASM_Label_1384
-0	77	433	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	78	433		mov __signed_stack_001main, __main_7qG2_k_7qG2_000
-0	77	435	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	78	435	#line 78 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	79	435		mov __D0main, __constValNeg3
-0	78	437	#line 78 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	79	437		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	79	441	#line 79 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	80	441		brtst 4, __ASM_Label_1387, __D0main
-0	79	444	#line 79 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	80	444		set __D0main, 55
-0	80	447	#line 80 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	81	447	#pragma macro 7
-0	81	447		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9951	470	#line 9951 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	80	470	#line 80 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	80	470	#line 80 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	81	470		set __D0main, 5
-0	81	473	#line 81 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	82	473	#pragma macro 7
-0	82	473		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9956	496	#line 9956 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	81	496	#line 81 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	84	496	#line 84 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	85	496		jmp __ASM_Label_1392
-0	84	498	#line 84 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	85	498		set __D0main, 30
-0	85	501	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	86	501	#pragma macro 7
-0	86	501		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9964	524	#line 9964 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	85	524	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	86	524	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	86	524	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	86	524	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	87	524		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	86	527	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	527	#line 8551 "NXCDefs.h"
-0	8552	527		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	530	#line 8551 "NXCDefs.h"
-0	87	530	#line 87 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	90	530	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	91	530		jmp __ASM_Label_1397
-0	91	532	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	92	532	#pragma macro 7
-0	92	532		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	9982	555	#line 9982 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	91	555	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	91	555	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	92	555		set __signed_stack_001main, 300
-0	91	558	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	91	558	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	92	558		set __signed_stack_002main, 30
-0	91	561	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	91	561	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	92	561		set __signed_stack_003main, 4
-0	91	564	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	91	564	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	92	564		set __D0main, 0
-0	92	567	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	567		acquire __SPTArgsMutex
-0	92	568	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	568		mov __SPTArgs.Frequency, __signed_stack_001main
-0	92	570	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	570		mov __SPTArgs.Duration, __signed_stack_002main
-0	92	572	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	572		mov __SPTArgs.Volume, __signed_stack_003main
-0	92	574	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	574		mov __SPTArgs.Loop, __D0main
-0	92	576	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	576		syscall 10, __SPTArgs
-0	92	579	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	579		mov __D0main, __SPTArgs.Result
-0	92	581	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	581		release __SPTArgsMutex
-0	92	582	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	92	582	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	93	582		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	92	585	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	585	#line 8551 "NXCDefs.h"
-0	8552	585		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	588	#line 8551 "NXCDefs.h"
-0	93	588	#line 93 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	95	588	#line 95 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	96	588	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	96	588	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	588		jmp __ASM_Label_1340
-0	96	590	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	96	590	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	590		set __signed_stack_001main, 440
-0	96	593	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	96	593	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	593		set __signed_stack_002main, 30
-0	96	596	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	96	596	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	596		set __signed_stack_003main, 4
-0	96	599	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	96	599	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	599		set __D0main, 0
-0	97	602	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	602		acquire __SPTArgsMutex
-0	97	603	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	603		mov __SPTArgs.Frequency, __signed_stack_001main
-0	97	605	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	605		mov __SPTArgs.Duration, __signed_stack_002main
-0	97	607	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	607		mov __SPTArgs.Volume, __signed_stack_003main
-0	97	609	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	609		mov __SPTArgs.Loop, __D0main
-0	97	611	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	611		syscall 10, __SPTArgs
-0	97	614	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	614		mov __D0main, __SPTArgs.Result
-0	97	616	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	616		release __SPTArgsMutex
-0	97	617	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	617	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	617		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
-0	97	620	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	620	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	620		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
-0	97	623	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	97	623	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	623		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 68
-0	97	626	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	626	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	99	626		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
-0	98	628	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	98	628	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	99	628		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	98	631	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8551	631	#line 8551 "NXCDefs.h"
-0	8552	631		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	634	#line 8551 "NXCDefs.h"
-0	99	634	#line 99 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	8564	634	#line 8564 "NXCDefs.h"
-0	8565	634		set __D0StopAllTasks_inline_main, 1
-0	8564	637	#line 8564 "NXCDefs.h"
-0	8565	637		stop __D0StopAllTasks_inline_main
-0	8564	639	#line 8564 "NXCDefs.h"
-0	100	639	#line 100 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-0	101	639		exit -1, -1
+0	72	360		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	72	364	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	73	364		brtst 4, __ASM_Label_1374, __D0main
+0	73	367	#line 73 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	74	367		mov __main_7qG2_aux_7qG2_003, __constValNeg999
+0	73	369	#line 73 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	74	369	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	75	369		set __main_7qG2_blobIndex_7qG2_003, 0
+0	74	372	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	74	372	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	75	372		set __main_7qG2_i_7qG2_004, 0
+0	74	375	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	74	375	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	75	375		mov __signed_stack_001main, __main_7qG2_i_7qG2_004
+0	74	377	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	74	377	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	75	377		mov __D0main, nblobs
+0	74	379	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	75	379		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	74	383	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	75	383		brtst 4, __ASM_Label_1380, __D0main
+0	74	386	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	75	386		jmp __ASM_Label_1381
+0	75	388	#line 75 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	76	388		add __main_7qG2_i_7qG2_004, __main_7qG2_i_7qG2_004, __constVal1
+0	76	392	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	77	392		jmp __ASM_Label_1379
+0	76	394	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	77	394		mov __signed_stack_001main, __main_7qG2_i_7qG2_004
+0	76	396	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	76	396	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	77	396		index __signed_stack_001main, __main_7qG2_bb_7qG2_000, __signed_stack_001main
+0	76	400	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	76	400	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	77	400	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	78	400		mov __D0main, __main_7qG2_aux_7qG2_003
+0	77	402	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	78	402		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	78	406	#line 78 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	79	406		brtst 4, __ASM_Label_1391, __D0main
+0	78	409	#line 78 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	79	409		mov __signed_stack_001main, __main_7qG2_i_7qG2_004
+0	78	411	#line 78 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	78	411	#line 78 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	79	411		index __main_7qG2_aux_7qG2_003, __main_7qG2_bb_7qG2_000, __signed_stack_001main
+0	78	415	#line 78 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	79	415	#line 79 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	79	415	#line 79 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	80	415	#line 80 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	81	415		mov __main_7qG2_blobIndex_7qG2_003, __main_7qG2_i_7qG2_004
+0	80	417	#line 80 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	80	417	#line 80 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	82	417	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	82	417	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	83	417		jmp __ASM_Label_1382
+0	82	419	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	82	419	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	83	419		mov __signed_stack_001main, __main_7qG2_blobIndex_7qG2_003
+0	82	421	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	82	421	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	83	421		index __signed_stack_001main, __main_7qG2_br_7qG2_000, __signed_stack_001main
+0	82	425	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	82	425	#line 82 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	83	425	#line 83 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	84	425		set __D0main, 100
+0	83	428	#line 83 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	84	428		sub __main_7qG2_k_7qG2_000, __signed_stack_001main, __D0main
+0	83	432	#line 83 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	83	432	#line 83 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	84	432	#line 84 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	85	432		mov __main_7qG2_multip_7qG2_003, __constValf0P5
+0	84	434	#line 84 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	85	434	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	434		mov __signed_stack_001main, __main_7qG2_k_7qG2_000
+0	85	436	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	85	436	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	436		set __D0main, 0
+0	85	439	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	439		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	85	443	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	443		brtst 4, __ASM_Label_1406, __D0main
+0	85	446	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	446		mov __float_stack_001main, __main_7qG2_multip_7qG2_003
+0	85	448	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	85	448	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	448		mov __D0main, __main_7qG2_k_7qG2_000
+0	85	450	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	450		mul __main_7qG2_kp_7qG2_003, __float_stack_001main, __D0main
+0	85	454	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	85	454	#line 85 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	454	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	87	454		jmp __ASM_Label_1409
+0	86	456	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	87	456		set __signed_stack_001main, 0
+0	86	459	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	459	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	87	459		set __signed_stack_002main, 1
+0	86	462	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	462	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	462	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	87	462		mul __float_stack_002main, __signed_stack_002main, __main_7qG2_multip_7qG2_003
+0	86	466	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	466	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	87	466		mov __D0main, __main_7qG2_k_7qG2_000
+0	86	468	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	87	468		mul __DF0main, __float_stack_002main, __D0main
+0	86	472	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	87	472		sub __main_7qG2_kp_7qG2_003, __signed_stack_001main, __DF0main
+0	86	476	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	86	476	#line 86 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	88	476	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	88	476	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	89	476		mov __signed_stack_001main, __main_7qG2_k_7qG2_000
+0	88	478	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	89	478	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	90	478		set __D0main, 2
+0	89	481	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	90	481		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	90	485	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	91	485		brtst 4, __ASM_Label_1414, __D0main
+0	90	488	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	91	488		set __signed_stack_001main, 30
+0	90	491	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	90	491	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	91	491		mov __D0main, __main_7qG2_kp_7qG2_003
+0	90	493	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	91	493		add __D0main, __signed_stack_001main, __D0main
+0	91	497	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	92	497	#pragma macro 7
+0	92	497		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10126	520	#line 10126 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	91	520	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	91	520	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	92	520		set __signed_stack_001main, 30
+0	91	523	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	91	523	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	92	523		mov __D0main, __main_7qG2_kp_7qG2_003
+0	91	525	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	92	525		sub __D0main, __signed_stack_001main, __D0main
+0	92	529	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	93	529	#pragma macro 7
+0	93	529		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10141	552	#line 10141 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	92	552	#line 92 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	94	552	#line 94 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	95	552		mov __main_7qG2_left_right_7qG2_000, __constValNeg1
+0	94	554	#line 94 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	94	554	#line 94 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	95	554	#line 95 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	96	554		jmp __ASM_Label_1421
+0	95	556	#line 95 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	96	556		mov __signed_stack_001main, __main_7qG2_k_7qG2_000
+0	95	558	#line 95 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	96	558	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	97	558		mov __D0main, __constValNeg2
+0	96	560	#line 96 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	97	560		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	97	564	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	98	564		brtst 4, __ASM_Label_1424, __D0main
+0	97	567	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	98	567		set __signed_stack_001main, 30
+0	97	570	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	97	570	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	98	570		mov __D0main, __main_7qG2_kp_7qG2_003
+0	97	572	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	98	572		add __D0main, __signed_stack_001main, __D0main
+0	98	576	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	99	576	#pragma macro 7
+0	99	576		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10178	599	#line 10178 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	98	599	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	98	599	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	99	599		set __signed_stack_001main, 30
+0	98	602	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	98	602	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	99	602		mov __D0main, __main_7qG2_kp_7qG2_003
+0	98	604	#line 98 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	99	604		sub __D0main, __signed_stack_001main, __D0main
+0	99	608	#line 99 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	100	608	#pragma macro 7
+0	100	608		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10193	631	#line 10193 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	99	631	#line 99 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	100	631	#line 100 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	101	631		set __main_7qG2_left_right_7qG2_000, 1
+0	100	634	#line 100 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	100	634	#line 100 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	103	634	#line 103 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	104	634		jmp __ASM_Label_1431
+0	103	636	#line 103 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	104	636		set __D0main, 30
+0	104	639	#line 104 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	105	639	#pragma macro 7
+0	105	639		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10206	662	#line 10206 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	104	662	#line 104 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	105	662	#line 105 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	105	662	#line 105 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	105	662	#line 105 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	106	662		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	105	665	#line 105 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	665	#line 8551 "NXCDefs.h"
+0	8552	665		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	668	#line 8551 "NXCDefs.h"
+0	106	668	#line 106 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	109	668	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	668		jmp __ASM_Label_1436
+0	109	670	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	670		set __signed_stack_001main, 300
+0	109	673	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	109	673	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	673		set __signed_stack_002main, 30
+0	109	676	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	109	676	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	676		set __signed_stack_003main, 4
+0	109	679	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	109	679	#line 109 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	679		set __D0main, 0
+0	110	682	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	682		acquire __SPTArgsMutex
+0	110	683	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	683		mov __SPTArgs.Frequency, __signed_stack_001main
+0	110	686	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	686		mov __SPTArgs.Duration, __signed_stack_002main
+0	110	689	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	689		mov __SPTArgs.Volume, __signed_stack_003main
+0	110	692	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	692		mov __SPTArgs.Loop, __D0main
+0	110	695	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	695		syscall 10, __SPTArgs
+0	110	698	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	698		mov __D0main, __SPTArgs.Result
+0	110	701	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	701		release __SPTArgsMutex
+0	110	702	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	702	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	702		set __signed_stack_001main, 0
+0	110	705	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	705	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	705		set __signed_stack_002main, 35
+0	110	708	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	110	708	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	708		mov __D0main, __main_7qG2_left_right_7qG2_000
+0	110	710	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	710		mul __D0main, __signed_stack_002main, __D0main
+0	110	714	#line 110 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	714		sub __D0main, __signed_stack_001main, __D0main
+0	111	718	#line 111 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	112	718	#pragma macro 7
+0	112	718		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10281	741	#line 10281 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	741	#line 111 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	741	#line 111 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	112	741		set __signed_stack_001main, 35
+0	111	744	#line 111 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	111	744	#line 111 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	112	744		mov __D0main, __main_7qG2_left_right_7qG2_000
+0	111	746	#line 111 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	112	746		mul __D0main, __signed_stack_001main, __D0main
+0	112	750	#line 112 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	113	750	#pragma macro 7
+0	113	750		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10296	773	#line 10296 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	112	773	#line 112 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	112	773	#line 112 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	113	773		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	112	776	#line 112 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	776	#line 8551 "NXCDefs.h"
+0	8552	776		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	779	#line 8551 "NXCDefs.h"
+0	113	779	#line 113 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	115	779	#line 115 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	116	779	#pragma macro 7
+0	116	779		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10307	802	#line 10307 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	115	802	#line 115 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	116	802	#line 116 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	117	802	#pragma macro 7
+0	117	802		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	10310	825	#line 10310 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	116	825	#line 116 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	116	825	#line 116 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	117	825		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	116	828	#line 116 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	828	#line 8551 "NXCDefs.h"
+0	8552	828		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	831	#line 8551 "NXCDefs.h"
+0	117	831	#line 117 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	119	831	#line 119 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	120	831	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	120	831	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	831		jmp __ASM_Label_1342
+0	120	833	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	120	833	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	833		set __signed_stack_001main, 440
+0	120	836	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	120	836	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	836		set __signed_stack_002main, 30
+0	120	839	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	120	839	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	839		set __signed_stack_003main, 4
+0	120	842	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	120	842	#line 120 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	842		set __D0main, 0
+0	121	845	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	845		acquire __SPTArgsMutex
+0	121	846	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	846		mov __SPTArgs.Frequency, __signed_stack_001main
+0	121	849	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	849		mov __SPTArgs.Duration, __signed_stack_002main
+0	121	852	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	852		mov __SPTArgs.Volume, __signed_stack_003main
+0	121	855	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	855		mov __SPTArgs.Loop, __D0main
+0	121	858	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	858		syscall 10, __SPTArgs
+0	121	861	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	861		mov __D0main, __SPTArgs.Result
+0	121	864	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	864		release __SPTArgsMutex
+0	121	865	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	865	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	865		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
+0	121	868	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	868	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	868		set __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, 2
+0	121	871	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	121	871	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	871		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 68
+0	121	874	#line 121 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	874	#line 122 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	123	874		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
+0	122	876	#line 122 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	122	876	#line 122 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	123	876		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	122	879	#line 122 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8551	879	#line 8551 "NXCDefs.h"
+0	8552	879		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	882	#line 8551 "NXCDefs.h"
+0	123	882	#line 123 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	8564	882	#line 8564 "NXCDefs.h"
+0	8565	882		set __D0StopAllTasks_inline_main, 1
+0	8564	885	#line 8564 "NXCDefs.h"
+0	8565	885		stop __D0StopAllTasks_inline_main
+0	8564	887	#line 8564 "NXCDefs.h"
+0	124	887	#line 124 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+0	125	887		exit -1, -1
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -925,28 +1103,28 @@ Clump	Line	PC	Source
 4	53	48		mov __RLSReadBufVar, __i2cread_7qG2_cmdbuf_7qG2_000
 4	53	50		mov __RLSBytesCountVar, __i2cread_7qG2_cnt_7qG2_000
 4	53	52		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
-4	53	55		tst 4, __D0i2cread, __RLSBResultVar
-4	53	58		mov __i2cread_7qG2_cnt_7qG2_000, __RLSBytesCountVar
-4	53	60		mov __i2cread_7qG2_outbuf_7qG2_000, __RLSReadBufVar
-4	53	62		release __RLSBmutex0
-4	53	63		release __RLSBmutex1
-4	53	64		release __RLSBmutex2
-4	53	65		release __RLSBmutex3
-4	4980	66	#line 4980 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	54	66	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	55	66		tst 5, __D0i2cread, __D0i2cread
-4	54	69	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	55	69		brtst 4, __ASM_Label_501, __D0i2cread
-4	54	72	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	55	72		set __signed_stack_001i2cread, 0
-4	54	75	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	54	75	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	55	75		index __i2cread_7qG2_result_7qG2_000, __i2cread_7qG2_outbuf_7qG2_000, __signed_stack_001i2cread
-4	54	79	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	56	79	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	56	79	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	56	79	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	57	79		mov __unsigned_stack_001i2cread, __i2cread_7qG2_cnt_7qG2_000
+4	53	54		tst 4, __D0i2cread, __RLSBResultVar
+4	53	57		mov __i2cread_7qG2_cnt_7qG2_000, __RLSBytesCountVar
+4	53	59		mov __i2cread_7qG2_outbuf_7qG2_000, __RLSReadBufVar
+4	53	61		release __RLSBmutex0
+4	53	62		release __RLSBmutex1
+4	53	63		release __RLSBmutex2
+4	53	64		release __RLSBmutex3
+4	4980	65	#line 4980 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	54	65	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	55	65		tst 5, __D0i2cread, __D0i2cread
+4	54	68	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	55	68		brtst 4, __ASM_Label_501, __D0i2cread
+4	54	71	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	55	71		set __signed_stack_001i2cread, 0
+4	54	74	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	54	74	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	55	74		index __i2cread_7qG2_result_7qG2_000, __i2cread_7qG2_outbuf_7qG2_000, __signed_stack_001i2cread
+4	54	78	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	56	78	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	56	78	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	56	78	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	57	78		mov __unsigned_stack_001i2cread, __i2cread_7qG2_cnt_7qG2_000
 4	56	81	#line 56 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
 4	57	81	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
 4	58	81		set __D0i2cread, 2
@@ -956,31 +1134,31 @@ Clump	Line	PC	Source
 4	58	88		brtst 4, __ASM_Label_508, __D0i2cread
 4	57	91	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
 4	58	91		mov __unsigned_stack_001i2cread, __i2cread_7qG2_result_7qG2_000
-4	57	93	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	57	93	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	58	93		set __signed_stack_002i2cread, 1
-4	57	96	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	57	96	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	58	96		index __unsigned_stack_002i2cread, __i2cread_7qG2_outbuf_7qG2_000, __signed_stack_002i2cread
-4	57	100	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	57	100	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	59	100	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	60	100		set __D0i2cread, 256
-4	59	103	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	60	103		mul __D0i2cread, __unsigned_stack_002i2cread, __D0i2cread
-4	59	107	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	60	107		add __i2cread_7qG2_result_7qG2_000, __unsigned_stack_001i2cread, __D0i2cread
-4	59	111	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	59	111	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	61	111	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	61	111	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	62	111	#line 62 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	63	111		mov __DU0i2cread, __i2cread_7qG2_result_7qG2_000
-4	62	113	#line 62 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	63	113		subret __i2cread_return
+4	57	94	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	57	94	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	58	94		set __signed_stack_002i2cread, 1
+4	57	97	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	57	97	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	58	97		index __unsigned_stack_002i2cread, __i2cread_7qG2_outbuf_7qG2_000, __signed_stack_002i2cread
+4	57	101	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	57	101	#line 57 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	59	101	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	60	101		set __D0i2cread, 256
+4	59	104	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	60	104		mul __D0i2cread, __unsigned_stack_002i2cread, __D0i2cread
+4	59	108	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	60	108		add __i2cread_7qG2_result_7qG2_000, __unsigned_stack_001i2cread, __D0i2cread
+4	59	112	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	59	112	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	61	112	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	61	112	#line 61 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	62	112	#line 62 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	63	112		mov __DU0i2cread, __i2cread_7qG2_result_7qG2_000
 4	62	115	#line 62 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	71	115	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-4	72	115		subret __i2cread_return
+4	63	115		subret __i2cread_return
+4	62	117	#line 62 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	71	117	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+4	72	117		subret __i2cread_return
 5	76	0	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
 5	77	0		strcat __strbufi2cReadString, __constStr0009
 5	76	4	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
@@ -1037,38 +1215,38 @@ Clump	Line	PC	Source
 5	87	57		mov __RLSReadBufVar, __i2cReadString_7qG2_cmdbuf_7qG2_000
 5	87	59		mov __RLSBytesCountVar, __i2cReadString_7qG2_cnt_7qG2_000
 5	87	61		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
-5	87	64		tst 4, __D0i2cReadString, __RLSBResultVar
-5	87	67		mov __i2cReadString_7qG2_cnt_7qG2_000, __RLSBytesCountVar
-5	87	69		mov __i2cReadString_7qG2_outbuf_7qG2_000, __RLSReadBufVar
-5	87	71		release __RLSBmutex0
-5	87	72		release __RLSBmutex1
-5	87	73		release __RLSBmutex2
-5	87	74		release __RLSBmutex3
-5	5148	75	#line 5148 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	88	75	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	89	75		tst 5, __D0i2cReadString, __D0i2cReadString
-5	88	78	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	89	78		brtst 4, __ASM_Label_527, __D0i2cReadString
-5	88	81	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	89	81		mov __ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString, __i2cReadString_7qG2_outbuf_7qG2_000
-5	20152	83	#line 20152 "NXCDefs.h"
-5	20153	83		arrtostr __strbufByteArrayToStr_inline_i2cReadString, __ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString
-5	20152	86	#line 20152 "NXCDefs.h"
-5	89	86	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	90	86		mov __strretvali2cReadString, __strbufByteArrayToStr_inline_i2cReadString
-5	89	88	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	90	88		strcat __strbufi2cReadString, __strretvali2cReadString
-5	89	92	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	90	92		mov __i2cReadString_7qG2_temp_7qG2_000, __strbufi2cReadString
-5	89	94	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	90	94	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	91	94	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	92	94		strcat __strbufi2cReadString, __i2cReadString_7qG2_temp_7qG2_000
-5	91	98	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	92	98		subret __i2cReadString_return
-5	91	100	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	97	100	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
-5	98	100		subret __i2cReadString_return
+5	87	63		tst 4, __D0i2cReadString, __RLSBResultVar
+5	87	66		mov __i2cReadString_7qG2_cnt_7qG2_000, __RLSBytesCountVar
+5	87	68		mov __i2cReadString_7qG2_outbuf_7qG2_000, __RLSReadBufVar
+5	87	70		release __RLSBmutex0
+5	87	71		release __RLSBmutex1
+5	87	72		release __RLSBmutex2
+5	87	73		release __RLSBmutex3
+5	5148	74	#line 5148 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	88	74	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	89	74		tst 5, __D0i2cReadString, __D0i2cReadString
+5	88	77	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	89	77		brtst 4, __ASM_Label_527, __D0i2cReadString
+5	88	80	#line 88 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	89	80		mov __ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString, __i2cReadString_7qG2_outbuf_7qG2_000
+5	20152	82	#line 20152 "NXCDefs.h"
+5	20153	82		arrtostr __strbufByteArrayToStr_inline_i2cReadString, __ByteArrayToStr_7qG2_data_7qG2_000_inline_i2cReadString
+5	20152	85	#line 20152 "NXCDefs.h"
+5	89	85	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	90	85		mov __strretvali2cReadString, __strbufByteArrayToStr_inline_i2cReadString
+5	89	87	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	90	87		strcat __strbufi2cReadString, __strretvali2cReadString
+5	89	91	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	90	91		mov __i2cReadString_7qG2_temp_7qG2_000, __strbufi2cReadString
+5	89	93	#line 89 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	90	93	#line 90 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	91	93	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	92	93		strcat __strbufi2cReadString, __i2cReadString_7qG2_temp_7qG2_000
+5	91	97	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	92	97		subret __i2cReadString_return
+5	91	99	#line 91 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	97	99	#line 97 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
+5	98	99		subret __i2cReadString_return
 6	101	0	#line 101 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
 6	102	0		set __NXTCam_Flush_7qG2_nByteReady_7qG2_000, 0
 6	101	3	#line 101 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc"
@@ -1333,148 +1511,148 @@ Clump	Line	PC	Source
 8	4279	43		acquire __ResetSensorMutex
 8	4279	44		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_NXTCam_Init
 8	4279	46		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-8	4279	48		release __ResetSensorMutex
-8	6676	49	#line 6676 "NXCDefs.h"
-8	4278	49	#line 4278 "NXCDefs.h"
-8	4345	49	#line 4345 "NXCDefs.h"
-8	36	49	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	36	49	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	37	49		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
-8	36	52	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	36	52	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	37	52		mov __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, __NXTCam_Init_7qG2_camAddr_7qG2_000
-8	36	54	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	36	54	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	37	54		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 68
-8	36	57	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	38	57	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	39	57		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
-8	38	59	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	39	59	#line 39 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	40	59		strcat __strbufNXTCam_Init, __constStr0009
-8	39	63	#line 39 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	40	63		mov __NXTCam_Init_7qG2_s_7qG2_000, __strbufNXTCam_Init
-8	39	65	#line 39 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	40	65	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	41	65		set __NXTCam_Init_7qG2_i_7qG2_000, 0
-8	40	68	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	40	68	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	40	68	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	41	68		set __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init, 100
-8	40	71	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	8551	71	#line 8551 "NXCDefs.h"
-8	8552	71		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init
-8	8551	74	#line 8551 "NXCDefs.h"
-8	44	74	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	44	74	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	74		set __signed_stack_001NXTCam_Init, 0
-8	44	77	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	44	77	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	77		index __unsigned_stack_001NXTCam_Init, __NXTCam_Init_7qG2_s_7qG2_000, __signed_stack_001NXTCam_Init
-8	44	81	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	44	81	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	44	81	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	81		set __D0NXTCam_Init, 109
-8	44	84	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	84		cmp 5, __D0NXTCam_Init, __unsigned_stack_001NXTCam_Init, __D0NXTCam_Init
-8	44	88	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	88		brtst 4, __ASM_Label_776, __D0NXTCam_Init
-8	44	91	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	91		mov __signed_stack_001NXTCam_Init, __NXTCam_Init_7qG2_i_7qG2_000
-8	44	93	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	44	93	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	93		set __D0NXTCam_Init, 200
-8	44	96	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	96		cmp 0, __D0NXTCam_Init, __signed_stack_001NXTCam_Init, __D0NXTCam_Init
-8	45	100	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	46	100		brtst 4, __ASM_Label_774, __D0NXTCam_Init
-8	45	103	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	46	103		set __i2cReadString_7qG2_prt_7qG2_000, 0
-8	45	106	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	106	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	46	106		mov __i2cReadString_7qG2_adr_7qG2_000, __NXTCam_Init_7qG2_camAddr_7qG2_000
-8	45	108	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	108	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	46	108		set __i2cReadString_7qG2_reg_7qG2_000, 8
-8	45	111	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	45	111	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	46	111		set __i2cReadString_7qG2_cnt_7qG2_000, 8
-8	45	114	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	46	114	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	47	114		subcall i2cReadString, __i2cReadString_return
-8	46	116	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	47	116		mov __strretvalNXTCam_Init, __strbufi2cReadString
-8	46	118	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	47	118		strcat __strbufNXTCam_Init, __strretvalNXTCam_Init
-8	46	122	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	47	122		mov __NXTCam_Init_7qG2_s_7qG2_000, __strbufNXTCam_Init
-8	46	124	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	46	124	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	47	124		set __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init, 40
-8	46	127	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	8551	127	#line 8551 "NXCDefs.h"
-8	8552	127		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init
-8	8551	130	#line 8551 "NXCDefs.h"
-8	47	130	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	48	130	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	49	130		add __NXTCam_Init_7qG2_i_7qG2_000, __NXTCam_Init_7qG2_i_7qG2_000, __constVal1
-8	48	134	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	50	134	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	51	134		jmp __ASM_Label_773
-8	50	136	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	50	136	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	51	136		arrbuild __NXTCam_Init_7qG2_cmdbuf_7qG2_000, __NXTCam_Init_7qG2_camAddr_7qG2_000, __constVal0
-8	50	141	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	50	141	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	53	141	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	54	141		set __NXTCam_Init_7qG2_n_7qG2_000, 32
-8	53	144	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	53	144	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	53	144	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	54	144		mov __signed_stack_001NXTCam_Init, __NXTCam_Init_7qG2_n_7qG2_000
-8	53	146	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	53	146	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	54	146		set __D0NXTCam_Init, 32
-8	53	149	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	54	149		cmp 4, __D0NXTCam_Init, __signed_stack_001NXTCam_Init, __D0NXTCam_Init
-8	54	153	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	55	153		brtst 4, __ASM_Label_792, __D0NXTCam_Init
-8	54	156	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	55	156	#pragma macro 23
-8	55	156		acquire __CLSCSMutex0
-8	55	157		acquire __CLSCSMutex1
-8	55	158		acquire __CLSCSMutex2
-8	55	159		acquire __CLSCSMutex3
-8	55	160		mov __CLSCSArgs0.Port, __NXTCam_Init_7qG2_camPort_7qG2_000
-8	55	162		syscall 23, __CLSCSArgs0
-8	55	165		mov __NXTCam_Init_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
-8	55	167		mov __D0NXTCam_Init, __CLSCSArgs0.Result
-8	55	170		release __CLSCSMutex0
-8	55	171		release __CLSCSMutex1
-8	55	172		release __CLSCSMutex2
-8	55	173		release __CLSCSMutex3
-8	6823	174	#line 6823 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	54	174	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	55	174		mov __NXTCam_Init_7qG2_n_7qG2_000, __D0NXTCam_Init
-8	54	176	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	54	176	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	58	176	#line 58 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	59	176		jmp __ASM_Label_791
-8	58	178	#line 58 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	59	178	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	60	178		set __NXTCam_Init_7qG2_cnt_7qG2_000, 8
-8	59	181	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	59	181	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	59	181	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	60	181	#pragma macro 28
-8	60	181		acquire __RLSBmutex0
-8	60	182		acquire __RLSBmutex1
-8	60	183		acquire __RLSBmutex2
-8	60	184		acquire __RLSBmutex3
-8	60	185		mov __RLSReadPort, __NXTCam_Init_7qG2_camPort_7qG2_000
-8	60	187		mov __RLSReadBufVar, __NXTCam_Init_7qG2_cmdbuf_7qG2_000
-8	60	189		mov __RLSBytesCountVar, __NXTCam_Init_7qG2_cnt_7qG2_000
-8	60	191		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+8	4279	49		release __ResetSensorMutex
+8	6676	50	#line 6676 "NXCDefs.h"
+8	4278	50	#line 4278 "NXCDefs.h"
+8	4345	50	#line 4345 "NXCDefs.h"
+8	36	50	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	36	50	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	37	50		set __NXTCam_SendCommand_7qG2_camPort_7qG2_000, 0
+8	36	53	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	36	53	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	37	53		mov __NXTCam_SendCommand_7qG2_camAddr_7qG2_000, __NXTCam_Init_7qG2_camAddr_7qG2_000
+8	36	55	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	36	55	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	37	55		set __NXTCam_SendCommand_7qG2_cmd_7qG2_000, 68
+8	36	58	#line 36 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	38	58	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	39	58		subcall NXTCam_SendCommand, __NXTCam_SendCommand_return
+8	38	60	#line 38 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	39	60	#line 39 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	40	60		strcat __strbufNXTCam_Init, __constStr0009
+8	39	64	#line 39 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	40	64		mov __NXTCam_Init_7qG2_s_7qG2_000, __strbufNXTCam_Init
+8	39	66	#line 39 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	40	66	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	41	66		set __NXTCam_Init_7qG2_i_7qG2_000, 0
+8	40	69	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	40	69	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	40	69	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	41	69		set __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init, 100
+8	40	72	#line 40 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	8551	72	#line 8551 "NXCDefs.h"
+8	8552	72		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init
+8	8551	75	#line 8551 "NXCDefs.h"
+8	44	75	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	44	75	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	75		set __signed_stack_001NXTCam_Init, 0
+8	44	78	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	44	78	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	78		index __unsigned_stack_001NXTCam_Init, __NXTCam_Init_7qG2_s_7qG2_000, __signed_stack_001NXTCam_Init
+8	44	82	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	44	82	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	44	82	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	82		set __D0NXTCam_Init, 109
+8	44	85	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	85		cmp 5, __D0NXTCam_Init, __unsigned_stack_001NXTCam_Init, __D0NXTCam_Init
+8	44	89	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	89		brtst 4, __ASM_Label_776, __D0NXTCam_Init
+8	44	92	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	92		mov __signed_stack_001NXTCam_Init, __NXTCam_Init_7qG2_i_7qG2_000
+8	44	94	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	44	94	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	94		set __D0NXTCam_Init, 200
+8	44	97	#line 44 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	97		cmp 0, __D0NXTCam_Init, __signed_stack_001NXTCam_Init, __D0NXTCam_Init
+8	45	101	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	46	101		brtst 4, __ASM_Label_774, __D0NXTCam_Init
+8	45	104	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	46	104		set __i2cReadString_7qG2_prt_7qG2_000, 0
+8	45	107	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	107	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	46	107		mov __i2cReadString_7qG2_adr_7qG2_000, __NXTCam_Init_7qG2_camAddr_7qG2_000
+8	45	109	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	109	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	46	109		set __i2cReadString_7qG2_reg_7qG2_000, 8
+8	45	112	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	45	112	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	46	112		set __i2cReadString_7qG2_cnt_7qG2_000, 8
+8	45	115	#line 45 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	46	115	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	47	115		subcall i2cReadString, __i2cReadString_return
+8	46	117	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	47	117		mov __strretvalNXTCam_Init, __strbufi2cReadString
+8	46	119	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	47	119		strcat __strbufNXTCam_Init, __strretvalNXTCam_Init
+8	46	123	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	47	123		mov __NXTCam_Init_7qG2_s_7qG2_000, __strbufNXTCam_Init
+8	46	125	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	46	125	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	47	125		set __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init, 40
+8	46	128	#line 46 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	8551	128	#line 8551 "NXCDefs.h"
+8	8552	128		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init
+8	8551	131	#line 8551 "NXCDefs.h"
+8	47	131	#line 47 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	48	131	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	49	131		add __NXTCam_Init_7qG2_i_7qG2_000, __NXTCam_Init_7qG2_i_7qG2_000, __constVal1
+8	48	135	#line 48 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	50	135	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	51	135		jmp __ASM_Label_773
+8	50	137	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	50	137	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	51	137		arrbuild __NXTCam_Init_7qG2_cmdbuf_7qG2_000, __NXTCam_Init_7qG2_camAddr_7qG2_000, __constVal0
+8	50	142	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	50	142	#line 50 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	53	142	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	54	142		set __NXTCam_Init_7qG2_n_7qG2_000, 32
+8	53	145	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	53	145	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	53	145	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	54	145		mov __signed_stack_001NXTCam_Init, __NXTCam_Init_7qG2_n_7qG2_000
+8	53	147	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	53	147	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	54	147		set __D0NXTCam_Init, 32
+8	53	150	#line 53 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	54	150		cmp 4, __D0NXTCam_Init, __signed_stack_001NXTCam_Init, __D0NXTCam_Init
+8	54	154	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	55	154		brtst 4, __ASM_Label_792, __D0NXTCam_Init
+8	54	157	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	55	157	#pragma macro 23
+8	55	157		acquire __CLSCSMutex0
+8	55	158		acquire __CLSCSMutex1
+8	55	159		acquire __CLSCSMutex2
+8	55	160		acquire __CLSCSMutex3
+8	55	161		mov __CLSCSArgs0.Port, __NXTCam_Init_7qG2_camPort_7qG2_000
+8	55	163		syscall 23, __CLSCSArgs0
+8	55	166		mov __NXTCam_Init_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+8	55	168		mov __D0NXTCam_Init, __CLSCSArgs0.Result
+8	55	171		release __CLSCSMutex0
+8	55	172		release __CLSCSMutex1
+8	55	173		release __CLSCSMutex2
+8	55	174		release __CLSCSMutex3
+8	6823	175	#line 6823 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	54	175	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	55	175		mov __NXTCam_Init_7qG2_n_7qG2_000, __D0NXTCam_Init
+8	54	177	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	54	177	#line 54 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	58	177	#line 58 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	59	177		jmp __ASM_Label_791
+8	58	179	#line 58 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	59	179	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	60	179		set __NXTCam_Init_7qG2_cnt_7qG2_000, 8
+8	59	182	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	59	182	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	59	182	#line 59 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	60	182	#pragma macro 28
+8	60	182		acquire __RLSBmutex0
+8	60	183		acquire __RLSBmutex1
+8	60	184		acquire __RLSBmutex2
+8	60	185		acquire __RLSBmutex3
+8	60	186		mov __RLSReadPort, __NXTCam_Init_7qG2_camPort_7qG2_000
+8	60	188		mov __RLSReadBufVar, __NXTCam_Init_7qG2_cmdbuf_7qG2_000
+8	60	190		mov __RLSBytesCountVar, __NXTCam_Init_7qG2_cnt_7qG2_000
+8	60	192		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
 8	60	194		tst 4, __D0NXTCam_Init, __RLSBResultVar
 8	60	197		mov __NXTCam_Init_7qG2_cnt_7qG2_000, __RLSBytesCountVar
 8	60	199		mov __NXTCam_Init_7qG2_outbuf_7qG2_000, __RLSReadBufVar
@@ -1650,99 +1828,99 @@ Clump	Line	PC	Source
 8	70	400		acquire __SPTArgsMutex
 8	69	401	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
 8	70	401		mov __SPTArgs.Frequency, __signed_stack_001NXTCam_Init
-8	69	403	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	403		mov __SPTArgs.Duration, __signed_stack_002NXTCam_Init
-8	69	405	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	405		mov __SPTArgs.Volume, __signed_stack_003NXTCam_Init
+8	69	404	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	404		mov __SPTArgs.Duration, __signed_stack_002NXTCam_Init
 8	69	407	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	407		mov __SPTArgs.Loop, __D0NXTCam_Init
-8	69	409	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	409		syscall 10, __SPTArgs
-8	69	412	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	412		mov __D0NXTCam_Init, __SPTArgs.Result
-8	69	414	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	414		release __SPTArgsMutex
-8	69	415	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	69	415	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	415		set __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init, 500
-8	69	418	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	8551	418	#line 8551 "NXCDefs.h"
-8	8552	418		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init
-8	8551	421	#line 8551 "NXCDefs.h"
-8	70	421	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	421	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	421		set __signed_stack_001NXTCam_Init, 440
-8	70	424	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	424	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	424		set __signed_stack_002NXTCam_Init, 200
-8	70	427	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	427	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	427		set __signed_stack_003NXTCam_Init, 4
-8	70	430	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	70	430	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	430		set __D0NXTCam_Init, 0
-8	71	433	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	433		acquire __SPTArgsMutex
-8	71	434	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	434		mov __SPTArgs.Frequency, __signed_stack_001NXTCam_Init
-8	71	436	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	436		mov __SPTArgs.Duration, __signed_stack_002NXTCam_Init
+8	70	407		mov __SPTArgs.Volume, __signed_stack_003NXTCam_Init
+8	69	410	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	410		mov __SPTArgs.Loop, __D0NXTCam_Init
+8	69	413	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	413		syscall 10, __SPTArgs
+8	69	416	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	416		mov __D0NXTCam_Init, __SPTArgs.Result
+8	69	419	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	419		release __SPTArgsMutex
+8	69	420	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	69	420	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	420		set __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init, 500
+8	69	423	#line 69 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	8551	423	#line 8551 "NXCDefs.h"
+8	8552	423		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_NXTCam_Init
+8	8551	426	#line 8551 "NXCDefs.h"
+8	70	426	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	426	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	426		set __signed_stack_001NXTCam_Init, 440
+8	70	429	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	429	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	429		set __signed_stack_002NXTCam_Init, 200
+8	70	432	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	432	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	432		set __signed_stack_003NXTCam_Init, 4
+8	70	435	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	70	435	#line 70 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	435		set __D0NXTCam_Init, 0
 8	71	438	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	438		mov __SPTArgs.Volume, __signed_stack_003NXTCam_Init
-8	71	440	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	440		mov __SPTArgs.Loop, __D0NXTCam_Init
+8	72	438		acquire __SPTArgsMutex
+8	71	439	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	439		mov __SPTArgs.Frequency, __signed_stack_001NXTCam_Init
 8	71	442	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	442		syscall 10, __SPTArgs
+8	72	442		mov __SPTArgs.Duration, __signed_stack_002NXTCam_Init
 8	71	445	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	445		mov __D0NXTCam_Init, __SPTArgs.Result
-8	71	447	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	447		release __SPTArgsMutex
+8	72	445		mov __SPTArgs.Volume, __signed_stack_003NXTCam_Init
 8	71	448	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	448	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	448		set __signed_stack_001NXTCam_Init, 3
+8	72	448		mov __SPTArgs.Loop, __D0NXTCam_Init
 8	71	451	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	451	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	451		set __D0NXTCam_Init, 1
+8	72	451		syscall 10, __SPTArgs
 8	71	454	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	454	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	454		mov __RBtnArgs.Index, __signed_stack_001NXTCam_Init
-8	71	456	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	456		mov __RBtnArgs.Reset, __D0NXTCam_Init
-8	71	459	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	459		syscall 20, __RBtnArgs
-8	71	462	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	462		mov __D0NXTCam_Init, __RBtnArgs.Pressed
-8	71	465	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	71	465	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	465		not __D0NXTCam_Init, __D0NXTCam_Init
-8	72	468	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	73	468		tst 5, __D0NXTCam_Init, __D0NXTCam_Init
-8	72	471	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	73	471		brtst 4, __ASM_Label_856, __D0NXTCam_Init
-8	72	474	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	72	474	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	73	474		jmp __ASM_Label_855
-8	72	476	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	8564	476	#line 8564 "NXCDefs.h"
-8	8565	476		set __D0StopAllTasks_inline_NXTCam_Init, 1
-8	8564	479	#line 8564 "NXCDefs.h"
-8	8565	479		stop __D0StopAllTasks_inline_NXTCam_Init
-8	8564	481	#line 8564 "NXCDefs.h"
-8	73	481	#line 73 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	74	481	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	75	481		set __D0NXTCam_Init, 0
-8	74	484	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	75	484		subret __NXTCam_Init_return
-8	74	486	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	76	486	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	76	486	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	77	486	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	78	486		mov __D0NXTCam_Init, __NXTCam_Init_7qG2_i_7qG2_000
-8	77	488	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	78	488		subret __NXTCam_Init_return
-8	77	490	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	102	490	#line 102 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
-8	103	490		subret __NXTCam_Init_return
+8	72	454		mov __D0NXTCam_Init, __SPTArgs.Result
+8	71	457	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	457		release __SPTArgsMutex
+8	71	458	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	458	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	458		set __signed_stack_001NXTCam_Init, 3
+8	71	461	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	461	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	461		set __D0NXTCam_Init, 1
+8	71	464	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	464	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	464		mov __RBtnArgs.Index, __signed_stack_001NXTCam_Init
+8	71	467	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	467		mov __RBtnArgs.Reset, __D0NXTCam_Init
+8	71	470	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	470		syscall 20, __RBtnArgs
+8	71	473	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	473		mov __D0NXTCam_Init, __RBtnArgs.Pressed
+8	71	476	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	71	476	#line 71 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	476		not __D0NXTCam_Init, __D0NXTCam_Init
+8	72	479	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	73	479		tst 5, __D0NXTCam_Init, __D0NXTCam_Init
+8	72	482	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	73	482		brtst 4, __ASM_Label_856, __D0NXTCam_Init
+8	72	485	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	72	485	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	73	485		jmp __ASM_Label_855
+8	72	487	#line 72 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	8564	487	#line 8564 "NXCDefs.h"
+8	8565	487		set __D0StopAllTasks_inline_NXTCam_Init, 1
+8	8564	490	#line 8564 "NXCDefs.h"
+8	8565	490		stop __D0StopAllTasks_inline_NXTCam_Init
+8	8564	492	#line 8564 "NXCDefs.h"
+8	73	492	#line 73 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	74	492	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	75	492		set __D0NXTCam_Init, 0
+8	74	495	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	75	495		subret __NXTCam_Init_return
+8	74	497	#line 74 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	76	497	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	76	497	#line 76 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	77	497	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	78	497		mov __D0NXTCam_Init, __NXTCam_Init_7qG2_i_7qG2_000
+8	77	499	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	78	499		subret __NXTCam_Init_return
+8	77	501	#line 77 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	102	501	#line 102 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
+8	103	501		subret __NXTCam_Init_return
 9	107	0	#line 107 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
 9	108	0		set __NXTCam_GetBlobs_7qG2_nByteReady_7qG2_000, 0
 9	107	3	#line 107 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc"
@@ -2292,117 +2470,117 @@ Clump	Line	PC	Source
 10	15	10	#line 15 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 10	15	10	#line 15 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 10	16	10		subcall i2cread, __i2cread_return
-10	15	12	#line 15 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	16	12		mov __unsigned_stack_001ShowSensorInfo, __DU0i2cread
-10	15	14	#line 15 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	16	14	#line 16 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	17	14		set __D0ShowSensorInfo, 1
-10	16	17	#line 16 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	17	17		cmp 1, __D0ShowSensorInfo, __unsigned_stack_001ShowSensorInfo, __D0ShowSensorInfo
-10	18	21	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	21		brtst 4, __ASM_Label_1249, __D0ShowSensorInfo
-10	18	24	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	24		set __signed_stack_001ShowSensorInfo, 0
-10	18	27	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	18	27	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	27		set __signed_stack_002ShowSensorInfo, 0
-10	18	30	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	18	30	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	30		mov __i2cReadString_7qG2_prt_7qG2_000, __ShowSensorInfo_7qG2_prt_7qG2_000
-10	18	32	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	18	32	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	32		mov __i2cReadString_7qG2_adr_7qG2_000, __ShowSensorInfo_7qG2_Addres_7qG2_000
-10	18	34	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	18	34	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	34		set __i2cReadString_7qG2_reg_7qG2_000, 16
-10	18	37	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	18	37	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	37		set __i2cReadString_7qG2_cnt_7qG2_000, 8
-10	18	40	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	18	40	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	40		subcall i2cReadString, __i2cReadString_return
-10	18	42	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	42		mov __strretvalShowSensorInfo, __strbufi2cReadString
-10	18	44	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	44		strcat __strbufShowSensorInfo, __strretvalShowSensorInfo
-10	18	48	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	19	48		set __D0ShowSensorInfo, 0
-10	20	51	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	51		acquire __TextOutMutex
+10	15	13	#line 15 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	16	13		mov __unsigned_stack_001ShowSensorInfo, __DU0i2cread
+10	15	15	#line 15 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	16	15	#line 16 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	17	15		set __D0ShowSensorInfo, 1
+10	16	18	#line 16 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	17	18		cmp 1, __D0ShowSensorInfo, __unsigned_stack_001ShowSensorInfo, __D0ShowSensorInfo
+10	18	22	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	22		brtst 4, __ASM_Label_1249, __D0ShowSensorInfo
+10	18	25	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	25		set __signed_stack_001ShowSensorInfo, 0
+10	18	28	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	18	28	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	28		set __signed_stack_002ShowSensorInfo, 0
+10	18	31	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	18	31	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	31		mov __i2cReadString_7qG2_prt_7qG2_000, __ShowSensorInfo_7qG2_prt_7qG2_000
+10	18	33	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	18	33	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	33		mov __i2cReadString_7qG2_adr_7qG2_000, __ShowSensorInfo_7qG2_Addres_7qG2_000
+10	18	35	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	18	35	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	35		set __i2cReadString_7qG2_reg_7qG2_000, 16
+10	18	38	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	18	38	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	38		set __i2cReadString_7qG2_cnt_7qG2_000, 8
+10	18	41	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	18	41	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	41		subcall i2cReadString, __i2cReadString_return
+10	18	43	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	43		mov __strretvalShowSensorInfo, __strbufi2cReadString
+10	18	45	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	45		strcat __strbufShowSensorInfo, __strretvalShowSensorInfo
+10	18	49	#line 18 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	19	49		set __D0ShowSensorInfo, 0
 10	20	52	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	52		mov __TextOutArgs.Location.X, __signed_stack_001ShowSensorInfo
-10	20	54	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	54		mov __TextOutArgs.Location.Y, __signed_stack_002ShowSensorInfo
+10	21	52		acquire __TextOutMutex
+10	20	53	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	53		mov __TextOutArgs.Location.X, __signed_stack_001ShowSensorInfo
 10	20	56	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	56		mov __TextOutArgs.Options, __D0ShowSensorInfo
+10	21	56		mov __TextOutArgs.Location.Y, __signed_stack_002ShowSensorInfo
 10	20	59	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	59		mov __TextOutArgs.Text, __strbufShowSensorInfo
-10	20	61	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	61		syscall 13, __TextOutArgs
+10	21	59		mov __TextOutArgs.Options, __D0ShowSensorInfo
+10	20	62	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	62		mov __TextOutArgs.Text, __strbufShowSensorInfo
 10	20	64	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	64		mov __D0ShowSensorInfo, __TextOutArgs.Result
+10	21	64		syscall 13, __TextOutArgs
 10	20	67	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	67		release __TextOutMutex
-10	20	68	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	20	68	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	68		set __signed_stack_001ShowSensorInfo, 50
+10	21	67		mov __D0ShowSensorInfo, __TextOutArgs.Result
+10	20	70	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	70		release __TextOutMutex
 10	20	71	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 10	20	71	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	71		set __signed_stack_002ShowSensorInfo, 0
+10	21	71		set __signed_stack_001ShowSensorInfo, 50
 10	20	74	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 10	20	74	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	74		mov __i2cReadString_7qG2_prt_7qG2_000, __ShowSensorInfo_7qG2_prt_7qG2_000
-10	20	76	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	20	76	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	76		mov __i2cReadString_7qG2_adr_7qG2_000, __ShowSensorInfo_7qG2_Addres_7qG2_000
-10	20	78	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	20	78	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	78		set __i2cReadString_7qG2_reg_7qG2_000, 0
+10	21	74		set __signed_stack_002ShowSensorInfo, 0
+10	20	77	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	20	77	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	77		mov __i2cReadString_7qG2_prt_7qG2_000, __ShowSensorInfo_7qG2_prt_7qG2_000
+10	20	79	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	20	79	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	79		mov __i2cReadString_7qG2_adr_7qG2_000, __ShowSensorInfo_7qG2_Addres_7qG2_000
 10	20	81	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 10	20	81	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	81		set __i2cReadString_7qG2_cnt_7qG2_000, 8
+10	21	81		set __i2cReadString_7qG2_reg_7qG2_000, 0
 10	20	84	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
 10	20	84	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	84		subcall i2cReadString, __i2cReadString_return
-10	20	86	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	86		mov __strretvalShowSensorInfo, __strbufi2cReadString
-10	20	88	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	88		strcat __strbufShowSensorInfo, __strretvalShowSensorInfo
-10	20	92	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	21	92		set __D0ShowSensorInfo, 0
-10	21	95	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	95		acquire __TextOutMutex
-10	21	96	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	96		mov __TextOutArgs.Location.X, __signed_stack_001ShowSensorInfo
+10	21	84		set __i2cReadString_7qG2_cnt_7qG2_000, 8
+10	20	87	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	20	87	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	87		subcall i2cReadString, __i2cReadString_return
+10	20	89	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	89		mov __strretvalShowSensorInfo, __strbufi2cReadString
+10	20	91	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	91		strcat __strbufShowSensorInfo, __strretvalShowSensorInfo
+10	20	95	#line 20 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	21	95		set __D0ShowSensorInfo, 0
 10	21	98	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	98		mov __TextOutArgs.Location.Y, __signed_stack_002ShowSensorInfo
-10	21	100	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	100		mov __TextOutArgs.Options, __D0ShowSensorInfo
-10	21	103	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	103		mov __TextOutArgs.Text, __strbufShowSensorInfo
+10	22	98		acquire __TextOutMutex
+10	21	99	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	22	99		mov __TextOutArgs.Location.X, __signed_stack_001ShowSensorInfo
+10	21	102	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	22	102		mov __TextOutArgs.Location.Y, __signed_stack_002ShowSensorInfo
 10	21	105	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	105		syscall 13, __TextOutArgs
+10	22	105		mov __TextOutArgs.Options, __D0ShowSensorInfo
 10	21	108	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	108		mov __D0ShowSensorInfo, __TextOutArgs.Result
-10	21	111	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	22	111		release __TextOutMutex
-10	21	112	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	25	112	#line 25 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	25	112	#line 25 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-10	26	112		subret __ShowSensorInfo_return
-11	103	0	#line 103 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
-11	104	0		subret ____initialize_global_data_return
+10	22	108		mov __TextOutArgs.Text, __strbufShowSensorInfo
+10	21	110	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	22	110		syscall 13, __TextOutArgs
+10	21	113	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	22	113		mov __D0ShowSensorInfo, __TextOutArgs.Result
+10	21	116	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	22	116		release __TextOutMutex
+10	21	117	#line 21 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	25	117	#line 25 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	25	117	#line 25 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+10	26	117		subret __ShowSensorInfo_return
+11	127	0	#line 127 "C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc"
+11	128	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc
-1	__ResetSensorSubroutine	642	NXTDefs.h
-2	__ReadLSBytes1	655	NXTDefs.h
-3	__ReadLSBytesVar	741	NXTDefs.h
-4	i2cread	843	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
-5	i2cReadString	960	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
-6	NXTCam_Flush	1062	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
-7	NXTCam_SendCommand	1193	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
-8	NXTCam_Init	1312	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc
-9	NXTCam_GetBlobs	1804	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc
-10	ShowSensorInfo	2428	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc
-11	__initialize_global_data	2542	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc
+1	__ResetSensorSubroutine	890	NXTDefs.h
+2	__ReadLSBytes1	903	NXTDefs.h
+3	__ReadLSBytesVar	989	NXTDefs.h
+4	i2cread	1091	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
+5	i2cReadString	1210	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
+6	NXTCam_Flush	1311	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
+7	NXTCam_SendCommand	1442	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\.\nxtcamlib-common.nxc
+8	NXTCam_Init	1561	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc
+9	NXTCam_GetBlobs	2064	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\.\nxtcamlib-default.nxc
+10	ShowSensorInfo	2688	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc
+11	__initialize_global_data	2807	C:\Users\vicen_fpn6\Documents\csapl\line-tracking-robot-with-nxccam\Main.nxc

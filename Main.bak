@@ -1,11 +1,11 @@
 const byte camPort  =  IN_1;
 
 #define CAMADDR 0x02
-#define K_VALUE 3
+#define K_VALUE 2
 #include "nxtcamlib-default.nxc"
-#define NEAR 1
+#define NEAR 20
 #define P = 1.0
-#define VELOCITY 40
+#define VELOCITY 35
 
 // Global variables.
 int nblobs;  // number of blobs that are in view of NXTCam (value between 0 and 8)
@@ -37,6 +37,7 @@ task main ()
   int init;
   int k = 0;
   string k_str;
+  int left_right = 1;
 
   ShowSensorInfo(camPort, CAMADDR);
   Wait(500);
@@ -50,7 +51,7 @@ task main ()
   NXTCam_SendCommand(camPort, CAMADDR, 'L'); // line tracking
   Wait(300);
   NXTCam_SendCommand(camPort, CAMADDR, 'E'); // enable tracking
-  Wait(300);
+  Wait(600);
   PlayTone(440, 50);
   while (true)
   {
@@ -66,19 +67,37 @@ task main ()
       Wait(100);
       NXTCam_GetBlobs(camPort, CAMADDR, nblobs, bc, bl, bt, br, bb);
       k = 0;
+
       if(nblobs > 0)
       {
-          k = br[0]-100;
+          int aux = -999;
+          int blobIndex = 0;
+          for(int i =0 ; i< nblobs; i++)
+          {
+             if(bb[i] > aux)
+             {
+                aux = bb[i];
+                blobIndex = i;
+             }
+          }
+          k = br[blobIndex]-100;
+          float multip = 0.50;
+          int kp ;
+          if(k>0){kp = multip*k;}
+          else{kp = -1*multip*k;}
+
           if(k > K_VALUE)
           {
-              OnFwd(OUT_A, VELOCITY+k);
-              OnFwd(OUT_C, VELOCITY-k);
+              OnFwd(OUT_A, VELOCITY+kp);
+              OnFwd(OUT_C, VELOCITY-kp);
+              left_right = -1;
 
           }
           else if(k < -K_VALUE)
           {
-              OnFwd(OUT_C, VELOCITY+k);
-              OnFwd(OUT_A, VELOCITY-k);
+              OnFwd(OUT_C, VELOCITY+kp);
+              OnFwd(OUT_A, VELOCITY-kp);
+              left_right = 1;
           }
           else
           {
@@ -88,8 +107,13 @@ task main ()
       }
       else
       {
-          Off(OUT_AC);
           PlayTone(300, 30);
+          OnFwd(OUT_A, -35*left_right);
+          OnFwd(OUT_C,35*left_right);
+          Wait(750);
+          Off(OUT_AC);
+
+          Off(OUT_AC);
           Wait(500);
       }
     }
